@@ -1,0 +1,287 @@
+{
+	"nav_home": "الصفحة الرئيسية",
+	"nav_about": "اعرفنا",
+	"nav_products": "منتجاتنا ",
+	"nav_gallery": "معرض الصور",
+	"nav_projects": "سابقة اعمالنا",
+	"nav_contact": "تواصل معانا",
+	"brand": " ابو نواس",
+	"welcom": "مرحبا بك في",
+	"whyChoose": "ليه تختار ابو نواس ؟",
+	"history_title": "البداية",
+	"history_text": "بدأت رحلتنا سنة 1987 حين أسس الوالد عبد السند الشرنوبي ورشة صغيرة متخصصة في أعمال الحدادة والكريتال تحت اسم \"الشرنوبي لأعمال الحدادة والكريتال\"، والتي حملت طابع الحِرفة والإتقان منذ يومها الأول.",
+	"continue_title": "الاستمرار والتطور",
+	"continue_text": "انطلقتُ سنة 2018 لاستكمال المسيرة، حاملاً على عاتقي إرثًا من الخبرة والمصداقية، ومضيفًا إليه لمسات من التطوير والابتكار بما يناسب متطلبات العصر.",
+	"learn_more": "اعرف أكثر عنا",
+	"our_approach": "نهجنــا",
+	"approach_text": "نمزج بين الأصالة والخبرة المتوارثة والتقنيات الحديثة لتقديم أعمال معدنية عالية الجودة تلبي احتياجات عملائنا.",
+	"our_goals": "أهدافنا",
+	"goals_text": "تقديم حلول متكاملة في مجال الحدادة والكريتال، تُسلم في الوقت المحدد وتُركب باحترافية.",
+	"our_values": "قيمنا",
+	"values_text": "الجودة - الأمانة - الالتزام - التطوير المستمر",
+	"our_vision": "رؤيتنا",
+	"vision_text": "أن نكون من الرواد في مجال الأعمال المعدنية على مستوى الجمهورية وتمثيل الصناعة المصرية بفخر وجودة.",
+	"our_projects": "سابقة أعمالنا",
+	"see_projects": "عرض المزيد",
+	"partners": "شركاء النجاح",
+	"contact_us": "تواصل معنا",
+	"start_now": "ابدأ مشروعك الآن",
+	"servicesTitle": "خدماتنا",
+	"servicesIntro": "نجمع بين الحِرفة التقليدية والدقة الحديثة لتقديم خدمات معدنية متكاملة ",
+
+	"product_sections": [
+		{
+			"category": "بوابات حديد",
+			"cards": [
+				{
+					"id": "bawabat-hadid-bawabat-villa-klasikiya",
+					"title": "بوابة فيلا كلاسيكية",
+					"subtitle": "تصميم مميز من الحديد المطاوع مع لمسات زخرفية.",
+					"description": "بوابة فيلا كلاسيكية مصنوعة من الحديد المطاوع عالي الجودة، تجمع بين المتانة والتفاصيل الزخرفية الفنية لإضافة لمسة جمالية وأمان عالي لمدخل فيلتك.",
+					"image": "/image/bawabat cnc/bawaba.jpeg"
+				},
+				{
+					"id": "bawabat-hadid-bawabat-manzil-hadith",
+					"title": "بوابة منزل حديث",
+					"subtitle": "مزيج من الحداثة والقوة في تصميم فريد.",
+					"description": "بوابة منزل حديثة تجمع بين القوة والتصميم العصري لتتناسب مع المنازل ذات الطابع المعاصر مع الحفاظ على أعلى معايير الأمان.",
+					"image": "/image/bawabat cnc/bawaba2.jpg"
+				},
+				{
+					"id": "bawabat-hadid-bawabat-sharika-amniya-1",
+					"title": "بوابة شركه أمنية",
+					"subtitle": "تصميم يوفر أعلى درجات الأمان والمتانة.",
+					"description": "بوابة معدنية متينة خاصة بالشركات، توفر حماية فائقة ضد الاختراق بفضل المواد المعززة والتصميم الاحترافي.",
+					"image": "/image/bawabat cnc/bawaba3.jpeg"
+				},
+				{
+					"id": "bawabat-hadid-bawabat-sharika-amniya-2",
+					"title": "بوابة شركه أمنية",
+					"subtitle": "تصميم يوفر أعلى درجات الأمان والمتانة.",
+					"description": "بوابة معدنية متينة خاصة بالشركات، توفر حماية فائقة ضد الاختراق بفضل المواد المعززة والتصميم الاحترافي.",
+					"image": "/image/bawabat cnc/bawaba4.avif"
+				},
+				{
+					"id": "bawabat-hadid-bawabat-sharika-amniya-3",
+					"title": "بوابة شركه أمنية",
+					"subtitle": "تصميم يوفر أعلى درجات الأمان والمتانة.",
+					"description": "بوابة معدنية متينة خاصة بالشركات، توفر حماية فائقة ضد الاختراق بفضل المواد المعززة والتصميم الاحترافي.",
+					"image": "/image/bawabat feer for g/bawaba.jpg"
+				},
+				{
+					"id": "bawabat-hadid-bawabat-sharika-amniya-4",
+					"title": "بوابة شركه أمنية",
+					"subtitle": "تصميم يوفر أعلى درجات الأمان والمتانة.",
+					"description": "بوابة معدنية متينة خاصة بالشركات، توفر حماية فائقة ضد الاختراق بفضل المواد المعززة والتصميم الاحترافي.",
+					"image": "/image/bawabat feer for g/bawaba4.webp"
+				}
+			]
+		},
+
+		{
+			"category": "سلالم ودرابزين",
+			"cards": [
+				{
+					"id": "sallam-w-darabzin-darabzin-dakhili",
+					"title": "درابزين داخلي",
+					"subtitle": "تشطيب ناعم يلائم ديكورات المنزل الداخلية.",
+					"description": "درابزين داخلي بتشطيب ناعم وأنيق يتناسب مع ديكورات منزلك ويوفر الأمان المطلوب.",
+					"image": "/image/Handerelate/selem.jpeg"
+				},
+				{
+					"id": "sallam-w-darabzin-sallam-hadid-halzoni",
+					"title": "سلم حديد حلزوني",
+					"subtitle": "تصميم موفر للمساحة بمظهر فني جذاب.",
+					"description": "سلم حلزوني مصنوع من الحديد بتصميم فني يوفر المساحة ويضيف لمسة جمالية لأي مكان داخلي.",
+					"image": "/image/Handerelate/selem2.jpg"
+				},
+				{
+					"id": "sallam-w-darabzin-darabzin-khariji-1",
+					"title": "درابزين خارجي",
+					"subtitle": "متين ومقاوم لعوامل الطقس المختلفة.",
+					"description": "درابزين خارجي مصنوع من مواد مقاومة للعوامل الجوية لضمان المتانة وطول العمر في الخارج.",
+					"image": "/image/Handerelate/selem4.webp"
+				},
+				{
+					"id": "sallam-w-darabzin-darabzin-khariji-2",
+					"title": "درابزين خارجي",
+					"subtitle": "متين ومقاوم لعوامل الطقس المختلفة.",
+					"description": "درابزين خارجي مصنوع من مواد مقاومة للعوامل الجوية لضمان المتانة وطول العمر في الخارج.",
+					"image": "/image/Handerelate/selem3.png"
+				}
+			]
+		},
+
+		{
+			"category": "حماية الشبابيك",
+			"cards": [
+				{
+					"id": "himayat-ashbabik-shbabik-himaya-modern",
+					"title": "شباك حماية مودرن",
+					"subtitle": "شكل أنيق مع أمان عالي.",
+					"description": "شباك حماية مودرن يجمع بين الشكل العصري والأمان العالي لحماية نوافذ منزلك.",
+					"image": "/image/shebak/shebak.png"
+				},
+				{
+					"id": "himayat-ashbabik-shbabik-zukhrufiya-1",
+					"title": "حماية شبابيك زخرفية",
+					"subtitle": "تصاميم جمالية تضيف لمسة للواجهة.",
+					"description": "شبابيك زخرفية تضيف لمسة جمالية للواجهة الخارجية مع الحفاظ على الحماية اللازمة للنوافذ.",
+					"image": "/image/shebak/shebak2.webp"
+				},
+				{
+					"id": "himayat-ashbabik-shbabik-zukhrufiya-2",
+					"title": "حماية شبابيك زخرفية",
+					"subtitle": "تصاميم جمالية تضيف لمسة للواجهة.",
+					"description": "شبابيك زخرفية تضيف لمسة جمالية للواجهة الخارجية مع الحفاظ على الحماية اللازمة للنوافذ.",
+					"image": "/image/shebak/shebak3.webp"
+				},
+				{
+					"id": "himayat-ashbabik-shbabik-zukhrufiya-3",
+					"title": "حماية شبابيك زخرفية",
+					"subtitle": "تصاميم جمالية تضيف لمسة للواجهة.",
+					"description": "شبابيك زخرفية تضيف لمسة جمالية للواجهة الخارجية مع الحفاظ على الحماية اللازمة للنوافذ.",
+					"image": "/image/shebak/shebak4.jpeg"
+				}
+			]
+		},
+
+		{
+			"category": "برجولات",
+			"cards": [
+				{
+					"id": "barjolat-mathalat-sayarat",
+					"title": "مظلة سيارات",
+					"subtitle": "هيكل حديدي مخصص لحماية السيارات من الشمس والمطر.",
+					"description": "مظلة سيارات مصنوعة من هيكل حديدي قوي لحماية السيارات من أشعة الشمس المباشرة وأمطار الشتاء.",
+					"image": "/image/bargollat/bargola.jpeg"
+				},
+				{
+					"id": "barjolat-haykal-mustawda",
+					"title": "هيكل مستودع",
+					"subtitle": "هياكل معدنية كبيرة للمخازن والمصانع.",
+					"description": "هياكل معدنية ضخمة مصممة لتوفير الدعم والمتانة اللازمة للمخازن والمصانع.",
+					"image": "/image/bargollat/bargola2.jpeg"
+				},
+				{
+					"id": "barjolat-barjola-hadika-1",
+					"title": "برجولة حديقة",
+					"subtitle": "برجولات حديد أنيقة للحدائق والأسطح.",
+					"description": "برجولات حديدية أنيقة تضفي جمالاً وظلاً على الحدائق والأسطح.",
+					"image": "/image/bargollat/bargola3.jpg"
+				},
+				{
+					"id": "barjolat-barjola-hadika-2",
+					"title": "برجولة حديقة",
+					"subtitle": "برجولات حديد أنيقة للحدائق والأسطح.",
+					"description": "برجولات حديدية أنيقة تضفي جمالاً وظلاً على الحدائق والأسطح.",
+					"image": "/image/bargollat/bargola4.jpeg"
+				},
+				{
+					"id": "barjolat-barjola-hadika-3",
+					"title": "برجولة حديقة",
+					"subtitle": "برجولات حديد أنيقة للحدائق والأسطح.",
+					"description": "برجولات حديدية أنيقة تضفي جمالاً وظلاً على الحدائق والأسطح.",
+					"image": "/image/bargollat/bargola5.webp"
+				}
+			]
+		},
+
+		{
+			"category": "هناجر",
+			"cards": [
+				{
+					"id": "hanajar-mathalat-sayarat",
+					"title": "مظلة سيارات",
+					"subtitle": "هيكل حديدي مخصص لحماية السيارات من الشمس والمطر.",
+					"description": "مظلة سيارات قوية مصنوعة من الحديد تحمي السيارات من أشعة الشمس والأمطار.",
+					"image": "/image/hanger/hanger.jpg"
+				},
+				{
+					"id": "hanajar-haykal-mustawda",
+					"title": "هيكل مستودع",
+					"subtitle": "هياكل معدنية كبيرة للمخازن والمصانع.",
+					"description": "هياكل معدنية متينة لدعم المخازن والمصانع مع ضمان استقرار البنية وسلامتها.",
+					"image": "/image/hanger/hanger2.png"
+				},
+				{
+					"id": "hanajar-barjola-hadika-1",
+					"title": "برجولة حديقة",
+					"subtitle": "برجولات حديد أنيقة للحدائق والأسطح.",
+					"description": "برجولات حديدية تضيف لمسة جمالية وظلاً للحدائق والأسطح.",
+					"image": "/image/hanger/hanger3.webp"
+				},
+				{
+					"id": "hanajar-barjola-hadika-2",
+					"title": "برجولة حديقة",
+					"subtitle": "برجولات حديد أنيقة للحدائق والأسطح.",
+					"description": "برجولات حديدية تضيف لمسة جمالية وظلاً للحدائق والأسطح.",
+					"image": "/image/hanger/hanger4.jpg"
+				}
+			]
+		},
+
+		{
+			"category": "اكسسوارات معدنيه",
+			"cards": [
+				{
+					"id": "akssoarat-maadiniya-mathalat-sayarat",
+					"title": "مظلة سيارات",
+					"subtitle": "هيكل حديدي مخصص لحماية السيارات من الشمس والمطر.",
+					"description": "مظلة سيارات مصنوعة من هيكل معدني قوي يحمي السيارات من العوامل الجوية مثل الشمس والمطر.",
+					"image": "/image/metal Acsessory/table.jpg"
+				},
+				{
+					"id": "akssoarat-maadiniya-haykal-mustawda",
+					"title": "هيكل مستودع",
+					"subtitle": "هياكل معدنية كبيرة للمخازن والمصانع.",
+					"description": "هياكل معدنية قوية تستخدم لدعم المخازن والمصانع وضمان متانتها واستقرارها.",
+					"image": "/image/metal Acsessory/table2.webp"
+				},
+				{
+					"id": "akssoarat-maadiniya-barjola-hadika-1",
+					"title": "برجولة حديقة",
+					"subtitle": "برجولات حديد أنيقة للحدائق والأسطح.",
+					"description": "برجولات حديدية أنيقة تضيف جمالاً وظلاً للحدائق والأسطح.",
+					"image": "/image/metal Acsessory/table3.webp"
+				},
+				{
+					"id": "akssoarat-maadiniya-barjola-hadika-2",
+					"title": "برجولة حديقة",
+					"subtitle": "برجولات حديد أنيقة للحدائق والأسطح.",
+					"description": "برجولات حديدية أنيقة تضيف جمالاً وظلاً للحدائق والأسطح.",
+					"image": "/image/metal Acsessory/table4.webp"
+				},
+				{
+					"id": "akssoarat-maadiniya-barjola-hadika-3",
+					"title": "برجولة حديقة",
+					"subtitle": "برجولات حديد أنيقة للحدائق والأسطح.",
+					"description": "برجولات حديدية أنيقة تضيف جمالاً وظلاً للحدائق والأسطح.",
+					"image": "/image/metal Acsessory/table5.webp"
+				}
+			]
+		}
+	],
+	"expertiseTitle": " الخبرة",
+	"area": "مجالات",
+	"expertiseDescription": "نتميز بخبرات متعددة تغطي مجالات متنوعة من الأعمال المعدنية، مما يجعلنا نلبي احتياجات مشاريعك بكل احترافية.",
+
+	"expertiseFields": [
+		{
+			"title": "الحديد المشغول والزخرفي",
+			"description": "تصميم وتنفيذ بوابات وسلالم وأسوار مزخرفة بدقة فنية عالية."
+		},
+		{
+			"title": "المنشآت المعدنية",
+			"description": "تنفيذ هياكل معدنية للمخازن والمصانع والمباني التجارية والصناعية."
+		},
+		{
+			"title": "الحلول المعمارية المعدنية",
+			"description": "توفير حلول معدنية حديثة للأسقف، الفواصل، والديكورات الخارجية."
+		},
+		{
+			"title": "اللحام والتصنيع حسب الطلب",
+			"description": "خدمة تصنيع ولحام مخصصة تلائم جميع احتياجات العملاء."
+		}
+	]
+}

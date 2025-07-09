@@ -1,0 +1,287 @@
+{
+	"nav_home": "Home",
+	"nav_about": "About Us",
+	"nav_products": "Products ",
+	"nav_gallery": "Gallery",
+	"nav_projects": "Our Projects",
+	"nav_contact": "Contact Us",
+	"brand": "ABO NAWAS",
+	"welcom": "Welcom To",
+	"history_title": "The Beginning",
+	"whyChoose": "Why Chose Abo Nawas ?",
+	"history_text": "Our journey began in 1987 when my father, Abdel-Sand Shernouby, established a small workshop specializing in metal and wrought iron works under the name \"El-Sharnouby for Metal & Wrought Iron Works\" — a name that stood for craftsmanship and quality from the very first day.",
+	"continue_title": "Continuity and Development",
+	"continue_text": "In 2018, I carried on the legacy, building on a foundation of experience and trust while adding a modern touch to meet today’s needs.",
+	"learn_more": "Learn More About Us",
+	"our_approach": "Our Approach",
+	"approach_text": "We combine heritage and expertise with modern techniques to deliver high-quality metalwork solutions tailored to our clients.",
+	"our_goals": "Our Goals",
+	"goals_text": "To offer integrated solutions in metal and wrought iron works, delivered on time and installed professionally.",
+	"our_values": "Our Values",
+	"values_text": "Quality - Integrity - Commitment - Continuous Improvement",
+	"our_vision": "Our Vision",
+	"vision_text": "To be a leading name in the metalwork industry in Egypt and proudly represent Egyptian craftsmanship globally.",
+	"our_projects": "Our Projects",
+	"see_projects": "View More",
+	"partners": "Partners in Success",
+	"contact_us": "Contact Us",
+	"start_now": "Start Your Project Now",
+	"servicesTitle": " Our Services",
+	"servicesIntro": "We combine traditional craftsmanship with modern precision to provide comprehensive metal services.",
+
+	"product_sections": [
+		{
+			"category": "Iron Gates",
+			"cards": [
+				{
+					"id": "iron-gates-classic-villa-gate",
+					"title": "Classic Villa Gate",
+					"subtitle": "Elegant design made of wrought iron with artistic details.",
+					"description": "This classic villa gate is crafted from high-quality wrought iron, combining durability and artistic decorative elements to enhance the beauty and security of your villa entrance.",
+					"image": "/image/bawabat cnc/bawaba.jpeg"
+				},
+				{
+					"id": "iron-gates-modern-home-gate",
+					"title": "Modern Home Gate",
+					"subtitle": "A blend of strength and contemporary design.",
+					"description": "Our modern home gate offers a perfect balance between aesthetic appeal and structural strength, designed to complement contemporary architecture while ensuring maximum security.",
+					"image": "/image/bawabat cnc/bawaba2.jpg"
+				},
+				{
+					"id": "iron-gates-security-gate-for-companies-1",
+					"title": "Security Gate for Companies",
+					"subtitle": "Heavy-duty gate designed for maximum security.",
+					"description": "Designed specifically for companies, this security gate features reinforced ironwork to provide top-level protection against unauthorized access while maintaining a professional look.",
+					"image": "/image/bawabat cnc/bawaba3.jpeg"
+				},
+				{
+					"id": "iron-gates-security-gate-for-companies-2",
+					"title": "Security Gate for Companies",
+					"subtitle": "Heavy-duty gate designed for maximum security.",
+					"description": "Designed specifically for companies, this security gate features reinforced ironwork to provide top-level protection against unauthorized access while maintaining a professional look.",
+					"image": "/image/bawabat cnc/bawaba4.avif"
+				},
+				{
+					"id": "iron-gates-security-gate-for-companies-3",
+					"title": "Security Gate for Companies",
+					"subtitle": "Heavy-duty gate designed for maximum security.",
+					"description": "Designed specifically for companies, this security gate features reinforced ironwork to provide top-level protection against unauthorized access while maintaining a professional look.",
+					"image": "/image/bawabat feer for g/bawaba.jpg"
+				},
+				{
+					"id": "iron-gates-security-gate-for-companies-4",
+					"title": "Security Gate for Companies",
+					"subtitle": "Heavy-duty gate designed for maximum security.",
+					"description": "Designed specifically for companies, this security gate features reinforced ironwork to provide top-level protection against unauthorized access while maintaining a professional look.",
+					"image": "/image/bawabat feer for g/bawaba4.webp"
+				}
+			]
+		},
+
+		{
+			"category": "Stairs & Railings",
+			"cards": [
+				{
+					"id": "stairs-railings-indoor-railing",
+					"title": "Indoor Railing",
+					"subtitle": "Smooth finishing and elegant indoor design.",
+					"description": "Our indoor railings are finished with smooth coatings that complement your home's interior decor, providing safety without compromising style.",
+					"image": "/image/Handerelate/selem.jpeg"
+				},
+				{
+					"id": "stairs-railings-spiral-steel-staircase",
+					"title": "Spiral Steel Staircase",
+					"subtitle": "Space-saving artistic metal design.",
+					"description": "This spiral steel staircase combines artistic design with functionality, offering a compact solution that enhances any space aesthetically.",
+					"image": "/image/Handerelate/selem2.jpg"
+				},
+				{
+					"id": "stairs-railings-outdoor-railing-1",
+					"title": "Outdoor Railing",
+					"subtitle": "Durable and weather-resistant railing.",
+					"description": "Our outdoor railings are crafted to withstand harsh weather conditions, providing long-lasting safety and durability for exterior applications.",
+					"image": "/image/Handerelate/selem4.webp"
+				},
+				{
+					"id": "stairs-railings-outdoor-railing-2",
+					"title": "Outdoor Railing",
+					"subtitle": "Durable and weather-resistant railing.",
+					"description": "Our outdoor railings are crafted to withstand harsh weather conditions, providing long-lasting safety and durability for exterior applications.",
+					"image": "/image/Handerelate/selem3.png"
+				}
+			]
+		},
+
+		{
+			"category": "Window Protection",
+			"cards": [
+				{
+					"id": "window-protection-modern-window-grill",
+					"title": "Modern Window Grill",
+					"subtitle": "Sleek look with strong security.",
+					"description": "Our modern window grills combine sleek design with robust iron materials to protect your windows while enhancing your home’s aesthetics.",
+					"image": "/image/shebak/shebak.png"
+				},
+				{
+					"id": "window-protection-decorative-grills-1",
+					"title": "Decorative Grills",
+					"subtitle": "Aesthetic designs to complement your facade.",
+					"description": "Decorative window grills designed to add elegance and style to your building’s facade while providing essential security.",
+					"image": "/image/shebak/shebak2.webp"
+				},
+				{
+					"id": "window-protection-decorative-grills-2",
+					"title": "Decorative Grills",
+					"subtitle": "Aesthetic designs to complement your facade.",
+					"description": "Decorative window grills designed to add elegance and style to your building’s facade while providing essential security.",
+					"image": "/image/shebak/shebak3.webp"
+				},
+				{
+					"id": "window-protection-decorative-grills-3",
+					"title": "Decorative Grills",
+					"subtitle": "Aesthetic designs to complement your facade.",
+					"description": "Decorative window grills designed to add elegance and style to your building’s facade while providing essential security.",
+					"image": "/image/shebak/shebak4.jpeg"
+				}
+			]
+		},
+
+		{
+			"category": "Baragolla",
+			"cards": [
+				{
+					"id": "baragolla-car-shade",
+					"title": "Car Shade",
+					"subtitle": "Metal structure to protect cars from sun and rain.",
+					"description": "The car shade is built from strong metal designed to shield vehicles from harsh sun rays and rain, ensuring vehicle protection and longevity.",
+					"image": "/image/bargollat/bargola.jpeg"
+				},
+				{
+					"id": "baragolla-warehouse-structure",
+					"title": "Warehouse Structure",
+					"subtitle": "Large-scale steel frames for storage & industrial use.",
+					"description": "Our warehouse structures are robust steel frames engineered to support large storage spaces and industrial facilities, ensuring safety and durability.",
+					"image": "/image/bargollat/bargola2.jpeg"
+				},
+				{
+					"id": "baragolla-garden-pergola-1",
+					"title": "Garden Pergola",
+					"subtitle": "Decorative iron pergolas for gardens and rooftops.",
+					"description": "Elegant iron pergolas designed to beautify gardens and rooftops, providing shade and a charming atmosphere.",
+					"image": "/image/bargollat/bargola3.jpg"
+				},
+				{
+					"id": "baragolla-garden-pergola-2",
+					"title": "Garden Pergola",
+					"subtitle": "Decorative iron pergolas for gardens and rooftops.",
+					"description": "Elegant iron pergolas designed to beautify gardens and rooftops, providing shade and a charming atmosphere.",
+					"image": "/image/bargollat/bargola4.jpeg"
+				},
+				{
+					"id": "baragolla-garden-pergola-3",
+					"title": "Garden Pergola",
+					"subtitle": "Decorative iron pergolas for gardens and rooftops.",
+					"description": "Elegant iron pergolas designed to beautify gardens and rooftops, providing shade and a charming atmosphere.",
+					"image": "/image/bargollat/bargola5.webp"
+				}
+			]
+		},
+
+		{
+			"category": "Hanger",
+			"cards": [
+				{
+					"id": "hanger-car-shade",
+					"title": "Car Shade",
+					"subtitle": "Metal structure to protect cars from sun and rain.",
+					"description": "Strong metal car shades designed to protect vehicles from sun damage and rain exposure, extending vehicle life.",
+					"image": "/image/hanger/hanger.jpg"
+				},
+				{
+					"id": "hanger-warehouse-structure",
+					"title": "Warehouse Structure",
+					"subtitle": "Large-scale steel frames for storage & industrial use.",
+					"description": "Durable steel frames suitable for warehouses and industrial use, designed to provide sturdy support and long-term durability.",
+					"image": "/image/hanger/hanger2.png"
+				},
+				{
+					"id": "hanger-garden-pergola-1",
+					"title": "Garden Pergola",
+					"subtitle": "Decorative iron pergolas for gardens and rooftops.",
+					"description": "Beautiful iron pergolas designed to enhance garden and rooftop spaces, providing both shade and style.",
+					"image": "/image/hanger/hanger3.webp"
+				},
+				{
+					"id": "hanger-garden-pergola-2",
+					"title": "Garden Pergola",
+					"subtitle": "Decorative iron pergolas for gardens and rooftops.",
+					"description": "Beautiful iron pergolas designed to enhance garden and rooftop spaces, providing both shade and style.",
+					"image": "/image/hanger/hanger4.jpg"
+				}
+			]
+		},
+
+		{
+			"category": "Metal Accessories",
+			"cards": [
+				{
+					"id": "metal-accessories-car-shade",
+					"title": "Car Shade",
+					"subtitle": "Metal structure designed to protect cars from sun and rain.",
+					"description": "A sturdy metal accessory that protects cars from sun damage and rainfall, enhancing vehicle longevity.",
+					"image": "/image/metal Acsessory/table.jpg"
+				},
+				{
+					"id": "metal-accessories-warehouse-structure",
+					"title": "Warehouse Structure",
+					"subtitle": "Large metal structures for storage and factories.",
+					"description": "Heavy-duty metal structures designed to provide strong support for warehouses and factory environments.",
+					"image": "/image/metal Acsessory/table2.webp"
+				},
+				{
+					"id": "metal-accessories-garden-pergola-1",
+					"title": "Garden Pergola",
+					"subtitle": "Elegant iron pergolas for gardens and rooftops.",
+					"description": "Elegant iron pergolas to beautify gardens and rooftop spaces, offering shade and style.",
+					"image": "/image/metal Acsessory/table3.webp"
+				},
+				{
+					"id": "metal-accessories-garden-pergola-2",
+					"title": "Garden Pergola",
+					"subtitle": "Elegant iron pergolas for gardens and rooftops.",
+					"description": "Elegant iron pergolas to beautify gardens and rooftop spaces, offering shade and style.",
+					"image": "/image/metal Acsessory/table4.webp"
+				},
+				{
+					"id": "metal-accessories-garden-pergola-3",
+					"title": "Garden Pergola",
+					"subtitle": "Elegant iron pergolas for gardens and rooftops.",
+					"description": "Elegant iron pergolas to beautify gardens and rooftop spaces, offering shade and style.",
+					"image": "/image/metal Acsessory/table5.webp"
+				}
+			]
+		}
+	],
+	"expertiseTitle": "Fields of ",
+	"area": "Expertise",
+	"expertiseDescription": "We offer a diverse range of expertise in metalwork, enabling us to professionally handle your project requirements.",
+
+	"expertiseFields": [
+		{
+			"title": "Wrought Iron & Decorative Metal",
+			"description": "Design and execution of gates, staircases, and fences with artistic precision."
+		},
+		{
+			"title": "Steel Structures",
+			"description": "Fabrication of metal structures for warehouses, factories, and commercial buildings."
+		},
+		{
+			"title": "Architectural Metal Solutions",
+			"description": "Modern metal applications for roofs, dividers, and external designs."
+		},
+		{
+			"title": "Custom Welding & Fabrication",
+			"description": "Tailored welding and metalwork services to meet unique client needs."
+		}
+	]
+}
