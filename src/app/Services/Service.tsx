@@ -86,9 +86,8 @@ const Services = () => {
 									</p>
 									<motion.span
 										className='mt-4 inline-block text-darkthird font-semibold group-hover:underline cursor-pointer'
-										whileHover={{ scale: 1.1 }}
 										transition={{ type: 'spring', stiffness: 300 }}>
-										View Details →
+										{t('View Details')}
 									</motion.span>
 								</motion.div>
 

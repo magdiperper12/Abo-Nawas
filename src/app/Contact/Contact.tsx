@@ -17,20 +17,12 @@ const Contact = () => {
 			id='contact'
 			className='container px-2 md:px-8 mx-auto mt-16 '>
 			<motion.h1
-				className='text-3xl sm:text-4xl md:text-6xl font-extrabold text-center mb-4 text-darkprimary dark:text-white'
+				className='text-3xl mb-32 sm:text-4xl md:text-6xl font-extrabold text-center  text-darkprimary dark:text-white'
 				initial={{ opacity: 0, y: -20 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.6 }}>
 				{t('connectTitle')}
 			</motion.h1>
-
-			<motion.p
-				className='text-center text-base sm:text-lg max-w-2xl mx-auto mb-24 text-gray-700 dark:text-orange-100'
-				initial={{ opacity: 0 }}
-				animate={{ opacity: 1 }}
-				transition={{ delay: 0.2 }}>
-				{t('connectDesc')}
-			</motion.p>
 
 			<div className='relative mb-20 md:mb-40'>
 				<img
@@ -103,12 +95,13 @@ const Contact = () => {
 					</div>
 
 					{/* Submit Button */}
-					<motion.button
-						type='submit'
-						className='w-full md:col-span-2 bg-third dark:bg-forth text-white text-base sm:text-lg font-semibold py-3 px-6 rounded-xl hover:bg-darkthird transition-all duration-200'
-						whileTap={{ scale: 0.97 }}>
+					<motion.a
+						className=' md:col-span-2 bg-third dark:bg-forth text-white text-base sm:text-lg font-semibold py-3 px-6 rounded-xl hover:bg-darkthird transition-all duration-200 flex justify-center items-center w-1/2 m-auto'
+						href='https://mail.google.com/mail/?view=cm&fs=1&to=abonawas101@gmail.com'
+						target='_blank'
+						rel='noopener noreferrer'>
 						{t('sendMessage')}
-					</motion.button>
+					</motion.a>
 
 					{/* Submitted Message */}
 					{submitted && (

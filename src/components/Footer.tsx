@@ -27,14 +27,20 @@ const Footer = () => {
 			<div className='max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-10'>
 				{/* Company Info */}
 				<div>
-					<h2 className='text-2xl font-bold mb-4 text-darkthird dark:text-third'>
-						{t('footerTitle')}
+					<h2 className='text-3xl font-bold mb-4 text-yellow-600 dark:text-third'>
+						{t('brand')}
 					</h2>
-					<p className='text-sm leading-6 text-darkprimary dark:text-darkforth'>
-						<span className='text-darkthird dark:text-third'>
-							{t('footerTitle')}
+					<p className='text-xl leading-6 text-darkprimary dark:text-darkforth'>
+						<span className='text-yellow-500 dark:text-third'>
+							{t('nav_contact')}
 						</span>{' '}
-						{t('footerDesc')}
+						<a
+							href='https://mail.google.com/mail/?view=cm&fs=1&to=abonawas101@gmail.com'
+							target='_blank'
+							rel='noopener noreferrer'
+							className='block text-blue-500 text-xl'>
+							abonawas101@gmail.com
+						</a>
 					</p>
 				</div>
 
@@ -42,14 +48,14 @@ const Footer = () => {
 				<div className='grid grid-cols-2 '>
 					<div>
 						<h3 className='text-lg font-semibold mb-4 text-third dark:text-white'>
-							{t('quickLinks')}
+							{t('learn_more')}
 						</h3>
 						<ul className='space-y-2 text-sm'>
 							{[
-								{ label: t('quickHome'), href: '/' },
-								{ label: t('quickAbout'), href: '#about' },
-								{ label: t('quickServices'), href: '#services' },
-								{ label: t('quickContact'), href: '#contact' },
+								{ label: t('nav_home'), href: '/' },
+								{ label: t('nav_about'), href: '#about' },
+								{ label: t('nav_projects'), href: '#services' },
+								{ label: t('nav_products'), href: '/Contact' },
 							].map(({ label, href }) => (
 								<li key={label}>
 									<Link
