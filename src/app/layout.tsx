@@ -72,7 +72,7 @@ export default function RootLayout({
 							'@type': 'Organization',
 							name: 'ابونواس لأعمال الحدادة والكريتال',
 							url: 'https://sharnouby-metal.com/',
-							logo: 'https://sharnouby-metal.com/image/logo-removebg-preview.png',
+							logo: '/image/logo-removebg-preview.png',
 							sameAs: [
 								'https://www.facebook.com/ElSharnoubyMetal',
 								'https://www.instagram.com/ElSharnoubyMetal',
