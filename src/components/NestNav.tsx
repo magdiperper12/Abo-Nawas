@@ -72,7 +72,7 @@ const NestedNav: React.FC = () => {
 					onMouseEnter={() => setIsHovered(true)}
 					onMouseLeave={() => setIsHovered(false)}>
 					<Link
-						href='/Product'
+						href='/Services'
 						className='hover:text-yellow-400 text-2xl md:text-xl flex justify-center items-center gap-1  focus:text-yellow-500   transition-all duration-300 ease-in-out'>
 						{t('nav_products')}
 						<span className='hidden md:flex justify-center items-center'>
@@ -83,11 +83,11 @@ const NestedNav: React.FC = () => {
 					{/* Hover Content */}
 					{isHovered && (
 						<div className=' absolute z-10 top-7 -end-96 transform bg-secoundry border-yellow-500/10 rounded-2xl overflow-hidden dark:border-yellow-500/30 border-2 text-darkprimary dark:bg-darkprimary shadow-lg shadow-darkforth dark:shadow-darkprimary hidden lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 xl:gap-6 pe-2 xl:pe-4 w-[67vw] max-w-6xl animate-slideIn'>
-							<div className='space-y-2 col-span-1 bg-white dark:bg-yellow-500/70 py-4'>
+							<div className='space-y-2 col-span-1 bg-white dark:bg-yellow-500/70 '>
 								{contentData.map((item, idx) => (
 									<div
 										key={idx}
-										className='py-2'>
+										className=''>
 										<p
 											onClick={() =>
 												setSelectedCategory(
