@@ -33,6 +33,29 @@
 	"servicesTitle": " Our Services",
 	"servicesIntro": "We combine traditional craftsmanship with modern precision to provide comprehensive metal services.",
 
+	"expertiseTitle": "Fields of ",
+	"area": "Expertise",
+	"expertiseDescription": "We offer a diverse range of expertise in metalwork, enabling us to professionally handle your project requirements.",
+
+	"expertiseFields": [
+		{
+			"title": "Wrought Iron & Decorative Metal",
+			"description": "Design and execution of gates, staircases, and fences with artistic precision."
+		},
+		{
+			"title": "Steel Structures",
+			"description": "Fabrication of metal structures for warehouses, factories, and commercial buildings."
+		},
+		{
+			"title": "Architectural Metal Solutions",
+			"description": "Modern metal applications for roofs, dividers, and external designs."
+		},
+		{
+			"title": "Custom Welding & Fabrication",
+			"description": "Tailored welding and metalwork services to meet unique client needs."
+		}
+	],
+
 	"product_sections": [
 		{
 			"category": "Iron Gates",
@@ -264,28 +287,86 @@
 					"image": "/image/metal Acsessory/table5.webp"
 				}
 			]
-		}
-	],
-	"expertiseTitle": "Fields of ",
-	"area": "Expertise",
-	"expertiseDescription": "We offer a diverse range of expertise in metalwork, enabling us to professionally handle your project requirements.",
-
-	"expertiseFields": [
-		{
-			"title": "Wrought Iron & Decorative Metal",
-			"description": "Design and execution of gates, staircases, and fences with artistic precision."
 		},
 		{
-			"title": "Steel Structures",
-			"description": "Fabrication of metal structures for warehouses, factories, and commercial buildings."
+			"category": "Gates & Sliding Doors",
+			"cards": [
+				{
+					"id": "gates-sliding-modern-iron-gate",
+					"title": "Modern Iron Gate",
+					"subtitle": "Contemporary design with high durability.",
+					"description": "A modern iron gate designed to match modern homes, offering excellent security and style.",
+					"image": "/image/Bawabat Grar/garar8.jpg"
+				},
+				{
+					"id": "gates-sliding-decorative-classic",
+					"title": "Classic Decorative Gate",
+					"subtitle": "An artistic touch for your entrance.",
+					"description": "A decorative iron gate with artistic details that add luxury and combine beauty with safety.",
+					"image": "/image/Bawabat Grar/garar7.jpg"
+				},
+				{
+					"id": "gates-sliding-modern-iron-gate",
+					"title": "Modern Iron Gate",
+					"subtitle": "Contemporary design with high durability.",
+					"description": "A modern iron gate designed to match modern homes, offering excellent security and style.",
+					"image": "/image/Bawabat Grar/garar6.jpg"
+				},
+				{
+					"id": "gates-sliding-horizontal-1",
+					"title": "Horizontal Sliding Door",
+					"subtitle": "Smooth and easy operation.",
+					"description": "A horizontal sliding iron door ideal for villas, workshops, and factories. Offers flexibility and ease of movement.",
+					"image": "/image/Bawabat Grar/garar3.avif"
+				},
+				{
+					"id": "gates-sliding-decorative-slider",
+					"title": "Decorative Sliding Door",
+					"subtitle": "Unique style with smooth functionality.",
+					"description": "A decorative metal sliding door used to divide spaces or as elegant entryways with stylish flow.",
+					"image": "/image/Bawabat Grar/garar4.jpg"
+				},
+				{
+					"id": "gates-sliding-horizontal-1",
+					"title": "Horizontal Sliding Door",
+					"subtitle": "Smooth and easy operation.",
+					"description": "A horizontal sliding iron door ideal for villas, workshops, and factories. Offers flexibility and ease of movement.",
+					"image": "/image/Bawabat Grar/garar2.jpeg"
+				}
+			]
 		},
 		{
-			"title": "Architectural Metal Solutions",
-			"description": "Modern metal applications for roofs, dividers, and external designs."
-		},
-		{
-			"title": "Custom Welding & Fabrication",
-			"description": "Tailored welding and metalwork services to meet unique client needs."
+			"category": "Balcony Railings",
+			"cards": [
+				{
+					"id": "balcony-railings-classic-style",
+					"title": "Classic Style Railing",
+					"subtitle": "Elegant ironwork with decorative curves.",
+					"description": "A beautifully crafted iron balcony railing that combines traditional elegance with safety and durability.",
+					"image": "/image/Balakonat/balakona.jpg"
+				},
+				{
+					"id": "balcony-railings-modern-minimal",
+					"title": "Modern Minimal Railing",
+					"subtitle": "Sleek design for contemporary spaces.",
+					"description": "A minimal iron railing with clean lines, ideal for modern apartment balconies and rooftops.",
+					"image": "/image/Balakonat/balakona2.jpg"
+				},
+				{
+					"id": "balcony-railings-fancy-ornamented",
+					"title": "Ornamented Balcony Railing",
+					"subtitle": "Decorative elements with strong materials.",
+					"description": "Ornate iron balcony railing featuring floral patterns and high-strength material for both beauty and safety.",
+					"image": "/image/Balakonat/balakona3.jpg"
+				},
+				{
+					"id": "balcony-railings-laser-cut-design",
+					"title": "Laser-Cut Balcony Panel",
+					"subtitle": "Precision-cut iron panels with artistic designs.",
+					"description": "A modern balcony railing using laser-cut metal panels, perfect for elegant façades and stylish homes.",
+					"image": "/image/Balakonat/balakona4.avif"
+				}
+			]
 		}
 	]
 }
