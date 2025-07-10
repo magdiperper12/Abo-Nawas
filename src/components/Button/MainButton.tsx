@@ -40,15 +40,15 @@ function MainButton() {
 							</span>
 							<IoLogoWhatsapp />
 						</Link>
-						{/*<Link
-							href='https://www.facebook.com/profile.php?id=61565101624769'
+						<Link
+							href='/'
 							target='_blank'
 							className='bg-blue-600 text-white group relative p-2 text-3xl rounded-full m-2  h-12 w-12 md:h-16 md:w-16 cursor-pointer shadow-lg shadow-secoundry dark:shadow-darksecoundry flex justify-center items-center  z-20'>
 							<span className='invisible absolute text-center -left-32 w-24 start-full rounded bg-darksecoundry text-darkforth px-3 py-2 text-sm font-medium  group-hover:visible'>
 								{t('messanger')}
 							</span>
 							<FaFacebookMessenger />
-						</Link>*/}
+						</Link>
 					</motion.div>
 				</AnimatePresence>
 			</div>

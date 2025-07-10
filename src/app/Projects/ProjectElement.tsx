@@ -1,7 +1,7 @@
 export const myProjects = [
 	{
 		id: 0,
-		title: 'United Feed Compony',
+		title: 'تدشين الحي السكني "R٢" بالعاصمة الإدارية الجديدة',
 		description:
 			'Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.',
 		subDescription: [
@@ -11,34 +11,11 @@ export const myProjects = [
 			'Added payment systems, localization, and product filtering for functionality improvements.',
 		],
 		type: 'Website',
-		image: '/image/a3laaf.png',
-		href: 'https://united-feed.aiotgroups.com/',
-		tags: [
-			{
-				id: 1,
-				name: 'React',
-				path: '/logos/react.svg',
-			},
-			{
-				id: 2,
-				name: '.Net',
-				path: '/logos/dotnet.svg',
-			},
-			{
-				id: 3,
-				name: 'Ef Core',
-				path: '/logos/efcore.png',
-			},
-			{
-				id: 4,
-				name: 'TailwindCSS',
-				path: '/logos/tailwindcss.svg',
-			},
-		],
+		image: '/image/Projects/Tadshen.jpg',
 	},
 	{
 		id: 1,
-		title: 'The Poultry App',
+		title: 'مشروعات مصر | الحيي السكني "R3" بالعاصمة الادارية الجديدة',
 		description:
 			'A secure authentication and authorization system using Auth0 for seamless user management.',
 		subDescription: [
@@ -48,34 +25,11 @@ export const myProjects = [
 			'Connected to a secure SQLite database for user data storage.',
 		],
 		type: 'mobile',
-		image: '/image/the poultry app.png',
-		href: 'https://play.google.com/store/search?q=the%20poultry&c=apps&hl=en',
-		tags: [
-			{
-				id: 1,
-				name: 'Auth0',
-				path: '/logos/auth0.svg',
-			},
-			{
-				id: 2,
-				name: 'React',
-				path: '/logos/react.svg',
-			},
-			{
-				id: 3,
-				name: 'SQLite',
-				path: '/logos/sqlite.svg',
-			},
-			{
-				id: 4,
-				name: 'TailwindCSS',
-				path: '/logos/tailwindcss.svg',
-			},
-		],
+		image: '/image/Projects/R3.jpg',
 	},
 	{
 		id: 2,
-		title: 'Soller Hub',
+		title: 'r6 العاصمة الادارية | يوفن',
 		description:
 			' A modern, interactive web application built with Blazor WebAssembly and .NET Core.',
 		subDescription: [
@@ -85,34 +39,11 @@ export const myProjects = [
 			'Integrated SQLite for efficient client-side database storage.',
 		],
 		type: '	mobile',
-		image: '/image/Solar hub.png',
-		href: 'https://play.google.com/store/apps/details?id=com.aiot.solarhub',
-		tags: [
-			{
-				id: 1,
-				name: 'Blazor',
-				path: '/logos/blazor.svg',
-			},
-			{
-				id: 2,
-				name: '.NET Core',
-				path: '/logos/dotnetcore.svg',
-			},
-			{
-				id: 3,
-				name: 'SQLite',
-				path: '/logos/sqlite.svg',
-			},
-			{
-				id: 4,
-				name: 'TailwindCSS',
-				path: '/logos/tailwindcss.svg',
-			},
-		],
+		image: '/image/Projects/r6.webp',
 	},
 	{
 		id: 3,
-		title: 'Schema-website',
+		title: 'الحي السكني العاصمة الادارية الجديدة r2 – جيمكس',
 		description:
 			'Schema is a lightweight C++ game engine designed for 2D and 3D game development.',
 		subDescription: [
@@ -122,34 +53,11 @@ export const myProjects = [
 			'Optimized performance with multi-threading and efficient memory management.',
 		],
 		type: 'Website',
-		image: '/image/schemaweb.png',
-		href: 'https://schema.aiotgroups.com/',
-		tags: [
-			{
-				id: 1,
-				name: 'C++',
-				path: '/logos/cplusplus.svg',
-			},
-			{
-				id: 2,
-				name: 'C#',
-				path: '/logos/csharp.svg',
-			},
-			{
-				id: 3,
-				name: 'Git',
-				path: '/logos/git.svg',
-			},
-			{
-				id: 4,
-				name: 'Microsoft',
-				path: '/logos/microsoft.svg',
-			},
-		],
+		image: '/image/Projects/jemex.jpg',
 	},
 	{
 		id: 4,
-		title: 'The poultry Website',
+		title: 'منطقة الحي السكني السابع (R7) بالعاصمة الأدارية',
 		description:
 			'A fully customizable WordPress theme optimized for performance and SEO.',
 		subDescription: [
@@ -159,140 +67,6 @@ export const myProjects = [
 			'Implemented custom widgets and plugin compatibility for extended functionality.',
 		],
 		type: 'Website',
-		image: '/image/the-poultry-website.png',
-		href: '',
-		tags: [
-			{
-				id: 1,
-				name: 'WordPress',
-				path: '/logos/wordpress.svg',
-			},
-			{
-				id: 2,
-				name: 'HTML5',
-				path: '/logos/html5.svg',
-			},
-			{
-				id: 3,
-				name: 'CSS3',
-				path: '/logos/css3.svg',
-			},
-			{
-				id: 4,
-				name: 'Vite.js',
-				path: '/logos/vitejs.svg',
-			},
-		],
-	},
-	{
-		id: 5,
-		title: 'souvenir',
-		description:
-			'A web application that allows users to enroll in courses, watch video lectures, and take quizzes.',
-		subDescription: [
-			'Built using Blazor WebAssembly for a seamless SPA experience.',
-			'Implemented video streaming with Azure Media Services.',
-			'Added a quiz system with dynamic question generation and real-time grading.',
-			'Integrated Stripe API for secure payment processing.',
-		],
-		type: 'mobile',
-		image: '/image/souviner.png',
-		href: '',
-		tags: [
-			{
-				id: 1,
-				name: 'Blazor',
-				path: '/logos/blazor.svg',
-			},
-			{
-				id: 2,
-				name: 'Azure',
-				path: '/logos/azure.svg',
-			},
-			{
-				id: 3,
-				name: 'Stripe',
-				path: '/logos/stripe.svg',
-			},
-			{
-				id: 4,
-				name: 'TailwindCSS',
-				path: '/logos/tailwindcss.svg',
-			},
-		],
-	},
-	{
-		id: 6,
-		title: 'CV Master',
-		description:
-			'CV Master is a lightweight C++ game engine designed for 2D and 3D game development.',
-		subDescription: [
-			'CV Master is a powerful rendering engine using OpenGL and C++.',
-			'Developed a physics engine with collision detection and particle effects.',
-			'Implemented a scripting system for easy game customization.',
-			'Optimized performance with multi-threading and efficient memory management.',
-		],
-		type: 'mobile',
-		image: '/image/CV.png',
-		href: 'https://play.google.com/store/apps/details?id=com.aiot.cv_ats_master',
-		tags: [
-			{
-				id: 1,
-				name: 'C++',
-				path: '/logos/cplusplus.svg',
-			},
-			{
-				id: 2,
-				name: 'C#',
-				path: '/logos/csharp.svg',
-			},
-			{
-				id: 3,
-				name: 'Git',
-				path: '/logos/git.svg',
-			},
-			{
-				id: 4,
-				name: 'Microsoft',
-				path: '/logos/microsoft.svg',
-			},
-		],
-	},
-	{
-		id: 7,
-		title: 'Schema',
-		description:
-			'A fully customizable WordPress theme optimized for performance and SEO.',
-		subDescription: [
-			'Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.',
-			'Integrated Tailwind CSS for modern styling and UI enhancements.',
-			'Optimized SEO and page speed using Vite.js for fast builds.',
-			'Implemented custom widgets and plugin compatibility for extended functionality.',
-		],
-		type: 'mobile',
-		image: '/image/Schema.png',
-		href: 'https://schema.aiotgroups.com/',
-		tags: [
-			{
-				id: 1,
-				name: 'WordPress',
-				path: '/logos/wordpress.svg',
-			},
-			{
-				id: 2,
-				name: 'HTML5',
-				path: '/logos/html5.svg',
-			},
-			{
-				id: 3,
-				name: 'CSS3',
-				path: '/logos/css3.svg',
-			},
-			{
-				id: 4,
-				name: 'Vite.js',
-				path: '/logos/vitejs.svg',
-			},
-		],
+		image: '/image/Projects/R7.jpeg',
 	},
 ];

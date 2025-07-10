@@ -32,7 +32,9 @@
 	"start_now": "Start Your Project Now",
 	"servicesTitle": " Our Services",
 	"servicesIntro": "We combine traditional craftsmanship with modern precision to provide comprehensive metal services.",
-
+	"OurProjects": "Our Projects",
+	"ViewDetails": "View Details",
+	"Close": "Close",
 	"expertiseTitle": "Fields of ",
 	"area": "Expertise",
 	"expertiseDescription": "We offer a diverse range of expertise in metalwork, enabling us to professionally handle your project requirements.",
@@ -367,6 +369,69 @@
 					"image": "/image/Balakonat/balakona4.avif"
 				}
 			]
+		}
+	],
+
+	"projects": [
+		{
+			"id": 0,
+			"title": "Residential District R2 – New Administrative Capital",
+			"description": "Complete execution of iron and metal works including gates, stairs, and fences within the residential district.",
+			"subDescription": [
+				"Fabricated and installed high-quality modern iron main gates.",
+				"Executed internal and external iron railings for stairs and balconies to meet safety standards.",
+				"Installed iron car shades resistant to weather conditions.",
+				"Supplied and assembled structural steel frameworks for service buildings."
+			],
+			"image": "/image/Projects/Tadshen.jpg"
+		},
+		{
+			"id": 1,
+			"title": "Egypt Projects | Residential District R3 – NAC",
+			"description": "Participation in metallic infrastructure including gates, iron shades, and structural supports.",
+			"subDescription": [
+				"Designed and built entry/exit iron gates combining security and aesthetics.",
+				"Constructed steel frameworks to support internal service units.",
+				"Installed iron fire escape stairs with robust handrails.",
+				"Applied advanced welding and anti-rust treatments for long-term durability."
+			],
+			"image": "/image/Projects/R3.jpg"
+		},
+		{
+			"id": 2,
+			"title": "R6 District – New Administrative Capital | Youven",
+			"description": "Implemented modern metal engineering solutions as part of the architectural structure.",
+			"subDescription": [
+				"Delivered and installed elegant pergolas for gardens and rooftops.",
+				"Fabricated custom iron car shades with contemporary designs.",
+				"Executed spiral steel staircases to save space and add artistic touch.",
+				"Installed decorative window grills with modern finishing."
+			],
+			"image": "/image/Projects/r6.webp"
+		},
+		{
+			"id": 3,
+			"title": "Residential District R2 – NAC | Gemex",
+			"description": "Provided high-precision metalworks to serve different structures in the district.",
+			"subDescription": [
+				"Installed high-security iron gates for main entrances and exits.",
+				"Executed rust-resistant exterior railings tailored to match the design language.",
+				"Constructed steel structures for temporary roofing and storage units.",
+				"Installed pergolas and shades with thermal and waterproof insulation."
+			],
+			"image": "/image/Projects/jemex.jpg"
+		},
+		{
+			"id": 4,
+			"title": "Residential District R7 – New Administrative Capital",
+			"description": "Carried out indoor and outdoor metalwork to complement façades and buildings.",
+			"subDescription": [
+				"Designed and implemented fixed and movable iron car canopies.",
+				"Installed modern window grills with decorative elements.",
+				"Constructed steel structures for waiting areas and service stops.",
+				"Provided internal railings with protective coatings and anti-scratch layers."
+			],
+			"image": "/image/Projects/R7.jpeg"
 		}
 	]
 }

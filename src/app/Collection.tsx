@@ -17,8 +17,8 @@ function Collection() {
 			<div className=' mt-28  space-y-36  z-10 '>
 				<InfiniteMarquee />
 				<About />
-				<Services />
 				<Strategy />
+				<Services />
 				{/* <Projects /> */}
 			</div>
 		</main>

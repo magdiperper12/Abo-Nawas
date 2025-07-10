@@ -18,7 +18,7 @@ const Header = () => {
 
 	const navLinks = [
 		{ name: t('nav_home'), href: '/' },
-		{ name: t('nav_projects'), href: '/Services' },
+		{ name: t('nav_projects'), href: '/Projects' },
 		{ name: t('nav_gallery'), href: '/Gallary' },
 		{ name: t('nav_contact'), href: '/Contact' },
 	];
@@ -30,12 +30,12 @@ const Header = () => {
 						href='/'
 						className='w-20 h-20 overflow-hidden'>
 						<Image
-							src='/image/logo-removebg-preview.png'
+							src='/image/AboNawasLogo-removebg-preview.png'
 							alt='شركة كودا - تطوير البرمجيات والذكاء الاصطناعي'
 							width={100}
 							height={100}
 							priority
-							className='scale-150 m-auto'
+							className=' m-auto'
 						/>
 					</Link>
 
