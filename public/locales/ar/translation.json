@@ -2,7 +2,7 @@
 	"nav_home": "الصفحة الرئيسية",
 	"nav_about": "اعرفنا",
 	"nav_products": "منتجاتنا ",
-	"nav_gallery": "معرض الصور",
+	"nav_gallery": "كاتلوج",
 	"nav_projects": "سابقة اعمالنا",
 	"nav_contact": "تواصل معانا",
 	"brand": " ابو نواس",
@@ -434,5 +434,46 @@
 			],
 			"image": "/image/Projects/R7.jpeg"
 		}
-	]
+	],
+	"infinit": [
+		{
+			"icon": "/image/Logo/HassanAllamPropertis.jpeg",
+			"text": "حسن علام بروبرتيز"
+		},
+		{
+			"icon": "/image/Logo/Solid.jpeg",
+			"text": "سوليد للانشاءت"
+		},
+		{
+			"icon": "/image/Logo/AlexandriaEnshaat.jpeg",
+			"text": "الاسكندريه للانشاءات"
+		},
+		{
+			"icon": "/image/Logo/Samkret.png",
+			"text": "سامكريت مصر"
+		},
+		{
+			"icon": "/image/Logo/allamInshaat.jpeg",
+			"text": "حسن علام للإنشاءات"
+		},
+		{
+			"icon": "/image/Logo/Gama.png",
+			"text": "جاما للإنشاءات"
+		},
+		{
+			"icon": "/image/Logo/Orasco.png",
+			"text": "اوراسكوم"
+		}
+	],
+	"addressLabel": "العنوان",
+	"addressValue": "القاهرة الجديدة - شارع التسعين الجنوبي",
+	"phoneLabel": "رقم الهاتف",
+	"phoneValue": "0100 123 4567",
+	"emailLabel": "البريد الإلكتروني",
+	"emailValue": "info@yourcompany.com",
+	"formName": "الاسم الكامل",
+	"formPhone": "رقم الهاتف",
+	"formPhonePlaceholder": "+20 01021589478",
+	"formEmail": "البريد الإلكتروني",
+	"formMessage": "اكتب رسالتك"
 }

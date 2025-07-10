@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
 import Strategy from './Strategy';
 
@@ -87,7 +86,7 @@ export default function Projects() {
 								<div className='flex items-center flex-wrap gap-4'>
 									<button
 										onClick={() => handleShow(index)}
-										className='ml-auto md:px-6 md:py-2 px-3 py-1 text-xs md:text-base bg-darkprimary dark:bg-white text-white dark:text-darkprimary font-semibold rounded-full transition-transform hover:scale-105'>
+										className='ml-auto md:px-6 md:py-2 px-3 py-1 text-base bg-darkprimary dark:bg-white text-white dark:text-darkprimary font-semibold rounded-full transition-transform hover:scale-105'>
 										{t('ViewDetails')}
 									</button>
 								</div>
@@ -99,7 +98,7 @@ export default function Projects() {
 
 			{/* Overlay Details */}
 			{activeProjectIndex !== null && (
-				<div className='fixed z-50 top-0 left-0 w-full h-full bg-darkprimary/60 flex items-center justify-center'>
+				<div className='fixed z-50 -top-20 left-0 w-full h-full bg-darkprimary/60 flex items-center justify-center'>
 					<div className='bg-white dark:bg-gray-950 p-6 rounded-xl max-w-4xl w-full max-h-[95vh] overflow-auto shadow-2xl'>
 						<div className='relative w-full h-[250px] md:h-[350px] mb-4'>
 							<Image
@@ -114,11 +113,11 @@ export default function Projects() {
 							{projects[activeProjectIndex].title}
 						</h2>
 
-						<p className='text-lg mb-4 text-gray-700 dark:text-gray-300'>
+						<p className='text-xl mb-4 text-gray-700 dark:text-gray-300'>
 							{projects[activeProjectIndex].description}
 						</p>
 
-						<ul className='list-disc pl-5 text-sm md:text-base text-gray-800 dark:text-gray-300 space-y-2'>
+						<ul className='list-disc pl-5 text-base text-gray-800 dark:text-gray-300 space-y-2'>
 							{projects[activeProjectIndex].subDescription.map((item, idx) => (
 								<li key={idx}>{item}</li>
 							))}

@@ -2,7 +2,7 @@
 	"nav_home": "Home",
 	"nav_about": "About Us",
 	"nav_products": "Products ",
-	"nav_gallery": "Gallery",
+	"nav_gallery": "Catalog",
 	"nav_projects": "Our Projects",
 	"nav_contact": "Contact Us",
 	"brand": "ABO NAWAS",
@@ -433,5 +433,46 @@
 			],
 			"image": "/image/Projects/R7.jpeg"
 		}
-	]
+	],
+	"infinit": [
+		{
+			"icon": "/image/Logo/HassanAllamPropertis.jpeg",
+			"text": "Hassan Allam Properties"
+		},
+		{
+			"icon": "/image/Logo/Solid.jpeg",
+			"text": "Solid Constructions"
+		},
+		{
+			"icon": "/image/Logo/AlexandriaEnshaat.jpeg",
+			"text": "Alexandria Constructions"
+		},
+		{
+			"icon": "/image/Logo/Samkret.png",
+			"text": "Samcrete Egypt"
+		},
+		{
+			"icon": "/image/Logo/allamInshaat.jpeg",
+			"text": "Hassan Allam Construction"
+		},
+		{
+			"icon": "/image/Logo/Gama.png",
+			"text": "Gama Construction"
+		},
+		{
+			"icon": "/image/Logo/Orasco.png",
+			"text": "Orascom"
+		}
+	],
+	"addressLabel": "Address",
+	"addressValue": "New Cairo – South 90th Street",
+	"phoneLabel": "Phone",
+	"phoneValue": "0100 123 4567",
+	"emailLabel": "Email",
+	"emailValue": "info@yourcompany.com",
+	"formName": "Full Name",
+	"formPhone": "Phone Number",
+	"formPhonePlaceholder": "+20 01021589478",
+	"formEmail": "Email Address",
+	"formMessage": "Write your message"
 }

@@ -1,41 +1,18 @@
 'use client';
 
 import React, { useEffect } from 'react';
-import { motion, useAnimation, useTransform } from 'framer-motion';
-import {
-	FaMobileAlt,
-	FaLaptopCode,
-	FaApple,
-	FaAndroid,
-	FaReact,
-	FaTools,
-	FaRobot,
-} from 'react-icons/fa';
-import {
-	SiFlutter,
-	SiNextdotjs,
-	SiTailwindcss,
-	SiFirebase,
-} from 'react-icons/si';
+import { motion, useAnimation } from 'framer-motion';
+
 import { useTranslation } from 'next-i18next';
 
-const items = [
-	{ icon: <SiTailwindcss />, text: 'Tailwind CSS' },
-	{ icon: <FaReact />, text: 'React.js' },
-	{ icon: <SiFirebase />, text: 'Firebase' },
-	{ icon: <FaTools />, text: 'Custom Tools' },
-	{ icon: <FaRobot />, text: 'حسن علام ' },
-	{ icon: <FaMobileAlt />, text: ' بروبرتس' },
-	{ icon: <SiFlutter />, text: ' انشاءات الاسكندريه' },
-	{ icon: <FaAndroid />, text: 'سامكريت مصر' },
-	{ icon: <FaApple />, text: 'سوليد للانشاءت' },
-	{ icon: <FaLaptopCode />, text: 'جاما للانشاءت' },
-	{ icon: <SiNextdotjs />, text: 'اوراسكوم' },
-];
-
+interface Partner {
+	icon: string;
+	text: string;
+}
 const InfiniteMarquee: React.FC = () => {
+	const { t } = useTranslation();
 	const controls = useAnimation();
-
+	const infinitData = t('infinit', { returnObjects: true }) as Partner[];
 	const startAnimation = () =>
 		controls.start({
 			x: '-100%',
@@ -53,7 +30,7 @@ const InfiniteMarquee: React.FC = () => {
 
 	const handleHoverStart = () => controls.stop();
 	const handleHoverEnd = () => startAnimation();
-	const { t } = useTranslation();
+
 	return (
 		<div className='text-center'>
 			<div className='w-full m-auto text-darkprimary dark:text-primary'>
@@ -68,14 +45,21 @@ const InfiniteMarquee: React.FC = () => {
 					animate={controls}
 					onMouseEnter={handleHoverStart}
 					onMouseLeave={handleHoverEnd}>
-					{[...items, ...items].map((item, index) => (
+					{[...infinitData, ...infinitData].map((item, index) => (
 						<motion.div
 							key={index}
 							className='flex items-center gap-2 px-4 min-w-max uppercase tracking-wide cursor-pointer'
-							whileHover={{ scale: 1.1, color: '#FFD8A9' }}
+							whileHover={{ scale: 1.1, color: '#ccf' }}
 							transition={{ type: 'spring', stiffness: 300 }}>
-							<span className='text-3xl'>{item.icon}</span>
-							<span className='text-xl'>{item.text}</span>
+							<div className='w-20 h-20 '>
+								<img
+									src={item.icon}
+									alt={''}
+									className=' object-contain'
+								/>
+							</div>
+
+							<span className='text-2xl'>{item.text}</span>
 						</motion.div>
 					))}
 				</motion.div>
