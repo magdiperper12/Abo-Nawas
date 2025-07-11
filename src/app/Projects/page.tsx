@@ -45,7 +45,7 @@ export default function Projects() {
 	}
 
 	return (
-		<section className='py-24 px-4 space-y-16 text-blue-700 dark:text-white transition-colors duration-500'>
+		<section className='py-24 px-4 space-y-16 text-darkprimary dark:text-primary shadow-secoundry dark:shadow-darksecoundry transition-colors duration-500'>
 			<Strategy />
 
 			<div className='max-w-7xl mx-auto'>
@@ -65,8 +65,8 @@ export default function Projects() {
 							whileInView={{ opacity: 1, y: 0 }}
 							viewport={{ once: true, amount: 0.5 }}
 							transition={{ delay: index * 0.1, duration: 0.6 }}
-							className='rounded-xl overflow-hidden group p-4 bg-white dark:bg-darkprimary border-2 dark:border-darkthird/25 shadow-lg hover:shadow-xl transition duration-300'>
-							<div className='relative w-full h-[250px] md:h-[400px] overflow-hidden bg-blue-200 dark:bg-blue-950'>
+							className='rounded-xl overflow-hidden group p-4 bg-primary shadow-darkforth dark:hover:shadow-darksecoundry hover:shadow-darkforth  dark:shadow-darksecoundry dark:bg-darkprimary border-2 dark:border-darkthird/25 shadow-lg hover:shadow-xl transition duration-300'>
+							<div className='relative w-full h-[250px] md:h-[400px] overflow-hidden bg-darkforth dark:bg-blue-950'>
 								<Image
 									src={project.image}
 									alt={project.title}
@@ -76,17 +76,17 @@ export default function Projects() {
 							</div>
 
 							<div className='p-6 lg:p-4 xl:p-8'>
-								<h3 className='text-3xl font-bold text-[#000000] dark:text-[#FFB22C] mb-4'>
+								<h3 className='text-3xl font-bold text-darksecoundry dark:text-darkforth mb-4'>
 									{project.title}
 								</h3>
-								<p className='text-lg text-[#E38B29] dark:text-[#F7F7F7] mb-6'>
+								<p className='text-lg text-darkprimary dark:text-primary mb-6'>
 									{project.description}
 								</p>
 
 								<div className='flex items-center flex-wrap gap-4'>
 									<button
 										onClick={() => handleShow(index)}
-										className='ml-auto md:px-6 md:py-2 px-3 py-1 text-base bg-darkprimary dark:bg-white text-white dark:text-darkprimary font-semibold rounded-full transition-transform hover:scale-105'>
+										className='ml-auto md:px-6 md:py-2 px-3 py-1 text-base bg-darkprimary dark:bg-primary  text-primary shadow-secoundry dark:shadow-darksecoundry dark:text-darkprimary font-semibold rounded-full transition-transform hover:scale-105'>
 										{t('ViewDetails')}
 									</button>
 								</div>
@@ -99,7 +99,7 @@ export default function Projects() {
 			{/* Overlay Details */}
 			{activeProjectIndex !== null && (
 				<div className='fixed z-50 -top-20 left-0 w-full h-full bg-darkprimary/60 flex items-center justify-center'>
-					<div className='bg-white dark:bg-blue-950 p-6 rounded-xl max-w-4xl w-full max-h-[95vh] overflow-auto shadow-2xl'>
+					<div className='bg-primary shadow-secoundry dark:shadow-darksecoundry dark:bg-blue-950 p-6 rounded-xl max-w-4xl w-full max-h-[95vh] overflow-auto shadow-2xl'>
 						<div className='relative w-full h-[250px] md:h-[350px] mb-4'>
 							<Image
 								src={projects[activeProjectIndex].image}
@@ -126,7 +126,7 @@ export default function Projects() {
 						<div className='text-end mt-6'>
 							<button
 								onClick={handleClose}
-								className='px-4 py-2 bg-[#F1A661] dark:bg-[#FFB22C] text-white font-semibold rounded-full hover:opacity-90 transition'>
+								className='px-4 py-2 bg-[#F1A661] dark:bg-[#FFB22C] text-primary shadow-secoundry dark:shadow-darksecoundry font-semibold rounded-full hover:opacity-90 transition'>
 								{t('Close')}
 							</button>
 						</div>

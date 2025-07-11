@@ -63,7 +63,7 @@ const Services = () => {
 							<Link
 								key={card.id}
 								href={`/Services/${card.id}`}
-								className='group block rounded-2xl border  dark:border-darkthird p-6 shadow-lg bg-darkprimary dark:bg-darkprimary hover:shadow-2xl hover:shadow-darkforth shadow-darkforth transition-shadow duration-300 relative overflow-hidden'>
+								className='group block rounded-2xl border  dark:border-darkthird dark:shadow-forth dark:hover:shadow-darksecoundry p-6 shadow-lg bg-darksecoundry dark:bg-darksecoundry hover:shadow-2xl hover:shadow-darkforth shadow-darkforth transition-shadow duration-300 relative overflow-hidden'>
 								<motion.div
 									initial={{ opacity: 0, y: 60 }}
 									whileInView={{ opacity: 1, y: 0 }}

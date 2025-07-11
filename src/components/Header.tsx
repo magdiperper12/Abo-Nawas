@@ -24,7 +24,7 @@ const Header = () => {
 	];
 	return (
 		<Suspense fallback={<div>Loading...</div>}>
-			<header className='backdrop-blur-lg dark:bg-darkprimary/10 bg-white/10  fixed   w-full pb-2   text-darkprimary  dark:text-white  shadow-lg'>
+			<header className='backdrop-blur-lg dark:bg-darkprimary/10 bg-white/10  dark:shadow-forth dark:hover:shadow-darksecoundry fixed   w-full pb-2   text-darkprimary  dark:text-white  shadow-lg shadow-darkforth'>
 				<div className='mx-auto flex  pt-1 items-center justify-between px-4 sm:px-6 lg:px-8'>
 					<Link
 						href='/'

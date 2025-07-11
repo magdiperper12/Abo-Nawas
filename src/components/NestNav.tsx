@@ -112,7 +112,7 @@ const NestedNav: React.FC = () => {
 												key={i}
 												href={`/Services/${card.id}`}
 												className='block hover:scale-105 transition-transform duration-300'>
-												<div className='bg-primary dark:bg-darksecoundry/70 shadow rounded-xl p-4 h-full flex flex-col items-center text-center'>
+												<div className='bg-primary dark:bg-darksecoundry	 shadow rounded-xl p-4 h-full flex flex-col items-center text-center'>
 													<img
 														src={
 															typeof card.image === 'string'
