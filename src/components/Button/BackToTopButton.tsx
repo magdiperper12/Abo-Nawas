@@ -27,10 +27,10 @@ const BackToTopButton = () => {
 
 	return isVisible ? (
 		<div>
-			<div className=' absolute  h-14 w-14 md:h-16 md:w-16 cursor-pointer     flex justify-center items-center  z-40 bg-darkthird text-darkthird p-5 rounded-full shadow-lg hover:bg-darkprimary transition dark:bg-darkthird dark:hover:bg-secoundry dark:hover:text-white'></div>
+			<div className=' absolute  h-14 w-14 md:h-16 md:w-16 cursor-pointer     flex justify-center items-center  z-40 bg-third text-third p-5 rounded-full shadow-lg hover:bg-darkprimary transition dark:bg-third dark:hover:bg-secoundry dark:hover:text-white'></div>
 			<button
 				onClick={scrollToTop}
-				className='absolute h-14 w-14 md:h-16 md:w-16 cursor-pointer flex justify-center items-center z-50 bg-darkthird text-darkthird p-5 rounded-full shadow-lg hover:bg-darkprimary transition dark:bg-darkthird dark:hover:bg-secoundry dark:hover:text-white'
+				className='absolute h-14 w-14 md:h-16 md:w-16 cursor-pointer flex justify-center items-center z-50 bg-third text-third p-5 rounded-full shadow-lg hover:bg-darkprimary transition dark:bg-third dark:hover:bg-secoundry dark:hover:text-white'
 				aria-label='Back to top'>
 				<FaArrowUp className='text-lg text-white' />
 			</button>

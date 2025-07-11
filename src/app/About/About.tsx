@@ -93,7 +93,7 @@ const About = () => {
 						{items.map((value, i) => (
 							<motion.div
 								key={i}
-								className='p-6 border rounded-xl  shadow-xl hover:shadow-md transition  '
+								className='p-6 border rounded-xl  shadow-xl hover:shadow-md hover:shadow-darkforth transition shadow-darkforth '
 								initial={{ opacity: 0, y: 30 }}
 								whileInView={{ opacity: 1, y: 0 }}
 								transition={{ duration: 0.5, delay: 0.2 * i }}>

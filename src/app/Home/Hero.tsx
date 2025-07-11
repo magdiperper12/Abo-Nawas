@@ -80,7 +80,7 @@ const Hero = () => {
 						{items.map((feature, i) => (
 							<motion.div
 								key={i}
-								className='rounded-xl p-6 border border-darkthird dark:border-darksecoundry bg-pritext-primary  shadow-sm hover:shadow-md transition'
+								className='rounded-xl p-6 border border-darkthird dark:border-darksecoundry bg-pritext-primary   hover:shadow-sm shadow-lg shadow-darkforth transition'
 								initial={{ opacity: 0, y: 30 }}
 								whileInView={{ opacity: 1, y: 0 }}
 								transition={{ delay: 0.2 * i }}>
