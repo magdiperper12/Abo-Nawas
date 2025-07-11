@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 		url: 'https://sharnouby-metal.com/',
 		images: [
 			{
-				url: '/image/AboNawasLogo-removebg-preview.png',
+				url: '/image/newlogo-removebg-preview.png',
 				alt: 'ابونواس لأعمال الحدادة والكريتال',
 				width: 800,
 				height: 600,
@@ -32,10 +32,10 @@ export const metadata: Metadata = {
 		title: 'ابونواس - بوابات وسلالم وحدادة فنية منذ عام 1987',
 		description:
 			'ورشة الشرنوبي تقدم خدمات صناعة البوابات الحديدية، السلالم، درابزين الشبابيك، والمظلات بتصاميم فريدة وجودة عالية.',
-		images: ['/image/AboNawasLogo-removebg-preview.png'],
+		images: ['/image/newlogo-removebg-preview.png'],
 	},
 	icons: {
-		icon: '/image/AboNawasLogo-removebg-preview.png',
+		icon: '/image/newlogo-removebg-preview.png',
 	},
 };
 
@@ -72,7 +72,7 @@ export default function RootLayout({
 							'@type': 'Organization',
 							name: 'ابونواس لأعمال الحدادة والكريتال',
 							url: 'https://sharnouby-metal.com/',
-							logo: '/image/AboNawasLogo-removebg-preview.png',
+							logo: '/image/newlogo-removebg-preview.png',
 							sameAs: [
 								'https://www.facebook.com/ElSharnoubyMetal',
 								'https://www.instagram.com/ElSharnoubyMetal',

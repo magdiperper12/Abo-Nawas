@@ -54,16 +54,16 @@ const MapsPage = () => {
 				].map(({ Icon, label, value }, index) => (
 					<motion.div
 						key={index}
-						className='bg-white dark:border-yellow-500 dark:bg-darkprimary border-2  rounded-2xl p-4 md:p-8 shadow-md hover:shadow-xl transition duration-300'
+						className='bg-white dark:border-darksecoundry dark:bg-darkprimary border-2  rounded-2xl p-4 md:p-8 shadow-md hover:shadow-xl transition duration-300'
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.5, delay: index * 0.2 }}
 						viewport={{ once: true }}>
-						<Icon className='text-2xl md:text-3xl m-auto mb-4 text-darkthird dark:text-third' />
+						<Icon className='text-2xl md:text-3xl m-auto mb-4 text-darksecoundry  dark:text-third' />
 						<h3 className='text-base md:text-xl font-bold mb-2 text-forth dark:text-darkforth'>
 							{label}
 						</h3>
-						<p className='text-xs md:text-base text-darkprimary dark:text-primary'>
+						<p className='text-xs md:text-base text-darksecoundry dark:text-darkthird'>
 							{value}
 						</p>
 					</motion.div>

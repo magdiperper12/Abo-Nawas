@@ -54,8 +54,8 @@ const ProductPage = () => {
 
 	if (!id) {
 		return (
-			<main className='flex flex-col items-center justify-center min-h-screen p-10 text-center bg-blue-50 dark:bg-blue-900'>
-				<p className='text-xl text-red-500'>المعرف غير متاح</p>
+			<main className='flex flex-col items-center justify-center min-h-screen p-10 text-center bg-primary dark:bg-darkprimary'>
+				<p className='text-xl text-darksecoundry'>المعرف غير متاح</p>
 			</main>
 		);
 	}
@@ -65,7 +65,7 @@ const ProductPage = () => {
 			<main className='flex flex-col items-center justify-center min-h-screen p-10 text-center'>
 				<Link
 					href={'/Services'}
-					className='px-6 py-3 bg-yellow-600 text-white rounded-md shadow-md hover:bg-yellow-700 transition'>
+					className='px-6 py-3 bg-darksecoundry text-primary rounded-md shadow-md hover:bg-third transition'>
 					{t('Back')}
 				</Link>
 			</main>
@@ -75,7 +75,7 @@ const ProductPage = () => {
 	return (
 		<main className='p-6 pt-32 lg:pt-36 sm:p-10 max-w-4xl mx-auto rounded-lg '>
 			<motion.h1
-				className='text-4xl sm:text-5xl font-extrabold mb-6 text-center text-yellow-600 dark:text-white'
+				className='text-4xl sm:text-5xl font-extrabold mb-6 text-center text-darkbg-darksecoundry dark:text-primary'
 				initial={{ opacity: 0, y: -30 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.6 }}>
@@ -94,7 +94,7 @@ const ProductPage = () => {
 				/>
 			</motion.div>
 			<motion.p
-				className='text-2xl text-yellow-950 dark:text-blue-300 mb-4 text-center'
+				className='text-2xl text-blue-950 dark:text-secoundry mb-4 text-center'
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1 }}
 				transition={{ delay: 0.4, duration: 0.5 }}>
@@ -102,7 +102,7 @@ const ProductPage = () => {
 			</motion.p>
 			{product.description && (
 				<motion.p
-					className='text-xl text-yellow-600 dark:text-blue-400 max-w-prose mx-auto leading-relaxed'
+					className='text-xl text-darkbg-darksecoundry dark:text-darkforth max-w-prose mx-auto leading-relaxed'
 					initial={{ opacity: 0, y: 10 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ delay: 0.6, duration: 0.5 }}>
@@ -112,7 +112,7 @@ const ProductPage = () => {
 
 			<Link
 				href={'/Services'}
-				className='px-6 py-3 flex justify-center items-center  my-8 w-1/2 m-auto bg-yellow-600 text-white rounded-md shadow-md hover:bg-yellow-700 transition'>
+				className='px-6 py-3 flex justify-center items-center  my-8 w-1/2 m-auto bg-darksecoundry text-primary rounded-md shadow-md hover:bg-third transition'>
 				{t('Back')}
 			</Link>
 		</main>

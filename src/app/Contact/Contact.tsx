@@ -17,7 +17,7 @@ const Contact = () => {
 			id='contact'
 			className='container px-2 md:px-8 mx-auto mt-16 '>
 			<motion.h1
-				className='text-3xl mb-32 sm:text-4xl md:text-6xl font-extrabold text-center  text-darkprimary dark:text-white'
+				className='text-3xl mb-32 sm:text-4xl md:text-6xl font-extrabold text-center  text-darkprimary dark:text-primary'
 				initial={{ opacity: 0, y: -20 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.6 }}>
@@ -33,7 +33,7 @@ const Contact = () => {
 
 				<motion.form
 					onSubmit={handleSubmit}
-					className='relative z-10 max-w-5xl mx-auto grid gap-6 grid-cols-1 md:grid-cols-2 bg-white dark:bg-blue-950 dark:border-2 dark:border-yellow-500 text-darkprimary dark:text-primary p-3 md:p-8 rounded-2xl shadow-xl'
+					className='relative z-10 max-w-5xl mx-auto grid gap-6 grid-cols-1 md:grid-cols-2 bg-primary dark:bg-blue-950 dark:border-2 dark:border-darksecoundry text-darkprimary dark:text-primary p-3 md:p-8 rounded-2xl shadow-xl'
 					initial={{ opacity: 0, y: 40 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ delay: 0.3 }}>
@@ -48,8 +48,9 @@ const Contact = () => {
 							<input
 								required
 								type='text'
+								placeholder='Your Name'
 								id='name'
-								className='w-full rounded-lg border border-blue-300 dark:border-darkthird bg-blue-50 dark:bg-darkprimary px-4 py-3 outline-none focus:ring-2 focus:ring-secoundry'
+								className='w-full rounded-lg border border-darkthird dark:border-darkthird bg-primary dark:bg-darkprimary px-4 py-3 outline-none focus:ring-2 focus:ring-secoundry'
 							/>
 						</div>
 
@@ -61,7 +62,7 @@ const Contact = () => {
 								type='tel'
 								name='phone'
 								placeholder='+20 01021589478'
-								className='w-full rounded-lg border border-blue-300 dark:border-darkthird bg-blue-50 dark:bg-darkprimary px-4 py-3 outline-none focus:ring-2 focus:ring-secoundry text-darkprimary'
+								className='w-full rounded-lg border border-darkthird dark:border-darkthird bg-primary dark:bg-darkprimary px-4 py-3 outline-none focus:ring-2 focus:ring-secoundry text-darkprimary'
 							/>
 						</div>
 
@@ -74,8 +75,9 @@ const Contact = () => {
 							<input
 								required
 								type='email'
+								placeholder='Your Email'
 								id='email'
-								className='w-full rounded-lg border border-blue-300 dark:border-darkthird bg-blue-50 dark:bg-darkprimary px-4 py-3 outline-none focus:ring-2 focus:ring-secoundry'
+								className='w-full rounded-lg border border-darkthird dark:border-darkthird bg-primary dark:bg-darkprimary px-4 py-3 outline-none focus:ring-2 focus:ring-secoundry'
 							/>
 						</div>
 					</div>
@@ -91,12 +93,12 @@ const Contact = () => {
 							required
 							id='message'
 							rows={6}
-							className='w-full min-h-36 md:min-h-56 rounded-lg border border-blue-300 dark:border-darkthird bg-blue-50 dark:bg-darkprimary px-4 py-3 outline-none resize-none focus:ring-2 focus:ring-secoundry'></textarea>
+							className='w-full min-h-36 md:min-h-56 rounded-lg border border-darkthird dark:border-darkthird bg-primary dark:bg-darkprimary px-4 py-3 outline-none resize-none focus:ring-2 focus:ring-secoundry'></textarea>
 					</div>
 
 					{/* Submit Button */}
 					<motion.a
-						className=' md:col-span-2 bg-third dark:bg-forth text-white text-base sm:text-lg font-semibold py-3 px-6 rounded-xl hover:bg-darkthird transition-all duration-200 flex justify-center items-center w-1/2 m-auto'
+						className=' md:col-span-2 bg-third dark:bg-darkprimary text-primary text-base sm:text-lg font-semibold py-3 px-6 rounded-xl hover:bg-darkthird transition-all duration-200 flex justify-center items-center w-1/2 m-auto'
 						href='https://mail.google.com/mail/?view=cm&fs=1&to=abonawas101@gmail.com'
 						target='_blank'
 						rel='noopener noreferrer'>

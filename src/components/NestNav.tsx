@@ -43,7 +43,7 @@ const NestedNav: React.FC = () => {
 		cards.map((card, index) => (
 			<div
 				key={index}
-				className='bg-white rounded-t-lg dark:bg-yellow-500/70 transition-transform transform hover:-translate-y-2 duration-300'>
+				className='bg-primary rounded-t-lg dark:bg-darksecoundry/70 transition-transform transform hover:-translate-y-2 duration-300'>
 				<div className='h-24 w-full overflow-hidden relative'>
 					<Image
 						src={card.image}
@@ -53,7 +53,7 @@ const NestedNav: React.FC = () => {
 					/>
 				</div>
 				<div className='px-4 py-3'>
-					<h3 className='text-sm xl:text-lg font-bold line-clamp-1 text-yellow-500/70 dark:text-white'>
+					<h3 className='text-sm xl:text-lg font-bold line-clamp-1 text-darksecoundry/70 dark:text-primary'>
 						{card.title}
 					</h3>
 					<p className='text-xs xl:text-sm text-darkthird line-clamp-1 dark:text-blue-300'>
@@ -73,7 +73,7 @@ const NestedNav: React.FC = () => {
 					onMouseLeave={() => setIsHovered(false)}>
 					<Link
 						href='/Services'
-						className='hover:text-yellow-400 text-2xl md:text-xl flex justify-center items-center gap-1  focus:text-yellow-500   transition-all duration-300 ease-in-out'>
+						className='hover:text-darkthird text-2xl md:text-xl flex justify-center items-center gap-1  focus:text-darksecoundry   transition-all duration-300 ease-in-out'>
 						{t('nav_products')}
 						<span className='hidden md:flex justify-center items-center'>
 							▽
@@ -82,8 +82,8 @@ const NestedNav: React.FC = () => {
 
 					{/* Hover Content */}
 					{isHovered && (
-						<div className=' absolute z-10 top-7 -end-96 transform bg-secoundry border-yellow-500/10 rounded-2xl overflow-hidden dark:border-yellow-500/30 border-2 text-darkprimary dark:bg-darkprimary shadow-lg shadow-darkforth dark:shadow-darkprimary hidden lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 xl:gap-6 pe-2 xl:pe-4 w-[67vw] max-w-6xl animate-slideIn'>
-							<div className='space-y-2 col-span-1 bg-white dark:bg-yellow-500/70 '>
+						<div className=' absolute z-10 top-7 -end-96 transform bg-secoundry border-secoundry rounded-2xl overflow-hidden dark:border-darksecoundry border-2 text-darkprimary dark:bg-darkprimary shadow-lg shadow-darkforth dark:shadow-darkprimary hidden lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 xl:gap-6 pe-2 xl:pe-4 w-[67vw] max-w-6xl animate-slideIn'>
+							<div className='space-y-2 col-span-1 bg-primary dark:bg-darksecoundry '>
 								{contentData.map((item, idx) => (
 									<div
 										key={idx}
@@ -96,7 +96,7 @@ const NestedNav: React.FC = () => {
 														: item.category
 												)
 											}
-											className='text-sm xl:text-xl font-semibold text-center text-darkthird hover:bg-darkthird hover:text-white dark:text-white transition-all w-full py-4 cursor-pointer'>
+											className='text-sm xl:text-xl font-semibold text-center text-darksecoundry hover:bg-secoundry hover:text-primary dark:text-primary dark:hover:text-secoundry dark:hover:bg-darkprimary transition-all w-full py-4 cursor-pointer'>
 											{item.category}
 										</p>
 									</div>
@@ -112,7 +112,7 @@ const NestedNav: React.FC = () => {
 												key={i}
 												href={`/Services/${card.id}`}
 												className='block hover:scale-105 transition-transform duration-300'>
-												<div className='bg-white dark:bg-yellow-500/70 shadow rounded-xl p-4 h-full flex flex-col items-center text-center'>
+												<div className='bg-primary dark:bg-darksecoundry/70 shadow rounded-xl p-4 h-full flex flex-col items-center text-center'>
 													<img
 														src={
 															typeof card.image === 'string'
@@ -122,7 +122,7 @@ const NestedNav: React.FC = () => {
 														alt={card.title}
 														className='w-full h-40 object-cover rounded-md mb-3'
 													/>
-													<h3 className='text-lg font-semibold text-darkprimary dark:text-white'>
+													<h3 className='text-lg font-semibold text-darkprimary dark:text-primary'>
 														{card.title}
 													</h3>
 												</div>
@@ -139,7 +139,7 @@ const NestedNav: React.FC = () => {
 			<button
 				onClick={() => setMenuOpen(!menuOpen)}
 				aria-label='menu'
-				className='text-darkthird md:hidden dark:text-white -ms-16 p-2 rounded-lg hover:bg-blue-200 dark:hover:bg-blue-500'>
+				className='text-darkthird md:hidden dark:text-primary -ms-16 p-2 rounded-lg hover:bg-blue-200 dark:hover:bg-darksecoundry'>
 				{menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
 			</button>
 
@@ -155,7 +155,7 @@ const NestedNav: React.FC = () => {
 							className='relative w-full text-center'>
 							<Link
 								href={link.href}
-								className='block py-4 text-darkthird dark:text-white hover:text-blue-500 transition-all'>
+								className='block py-4 text-darkthird dark:text-primary hover:text-darksecoundry transition-all'>
 								{link.text}
 							</Link>
 						</div>
@@ -166,7 +166,7 @@ const NestedNav: React.FC = () => {
 				<button
 					aria-label='close'
 					onClick={() => setMenuOpen(false)}
-					className='absolute md:hidden top-6 right-6 text-darkthird dark:text-white p-2'>
+					className='absolute md:hidden top-6 right-6 text-darkthird dark:text-primary p-2'>
 					<FaTimes size={28} />
 				</button>
 			</div>
