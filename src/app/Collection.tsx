@@ -9,7 +9,7 @@ import Strategy from './Projects/Strategy';
 
 function Collection() {
 	return (
-		<main className=' pt-32 pb-28  overflow-x-hidden'>
+		<main className=' pt-32  overflow-x-hidden'>
 			{/* <ParticlesComponent id='Particles' /> */}
 			<div className='my-16 mt-40'>
 				<Hero />

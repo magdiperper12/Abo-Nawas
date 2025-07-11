@@ -38,9 +38,9 @@ const InfiniteMarquee: React.FC = () => {
 					{t('partners')}
 				</h1>
 			</div>
-			<div className='w-full overflow-hidden bg-third dark:bg-darkprimary dark:border-y-2 border-y-darkthird py-12'>
+			<div className='w-full overflow-hidden bg-forth dark:bg-black dark:border-y-2 border-y-darkthird py-12'>
 				<motion.div
-					className='flex whitespace-nowrap gap-10 text-darkforth dark:text-darkthird text-lg font-medium'
+					className='flex whitespace-nowrap gap-10 text-primary dark:text-secoundry text-lg font-medium'
 					initial={{ x: '0%' }}
 					animate={controls}
 					onMouseEnter={handleHoverStart}

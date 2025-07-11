@@ -30,7 +30,7 @@ const Header = () => {
 						href='/'
 						className='w-20 h-20 overflow-hidden'>
 						<Image
-							src='/image/AboNawasLogo-removebg-preview.png'
+							src='/image/newlogo-removebg-preview.png'
 							alt='شركة كودا - تطوير البرمجيات والذكاء الاصطناعي'
 							width={100}
 							height={100}
@@ -48,7 +48,7 @@ const Header = () => {
 								whileInView={{ opacity: 1, x: 0 }}
 								transition={{ duration: 0.3, delay: 0.2 * i }}>
 								<Link
-									className='hover:text-yellow-400 transition focus:text-yellow-500  px-3'
+									className='hover:text-darksecoundry transition focus:text-third  px-3'
 									href={link.href}>
 									{link.name}
 								</Link>
@@ -63,7 +63,7 @@ const Header = () => {
 						<Lang />
 						{/* Mobile Menu Button */}
 						<button
-							className='lg:hidden  p-2 text-darkprimary text-3xl dark:text-gray-100'
+							className='lg:hidden  p-2 text-darkprimary text-3xl dark:text-primary'
 							onClick={() => setIsOpen(!isOpen)}>
 							{isOpen ? (
 								<div>
@@ -88,7 +88,7 @@ const Header = () => {
 							transition={{ duration: 0.3 }}
 							className='fixed z-50  w-full left-0 top-0 lg:hidden px-4 pt-4 pb-6 space-y-10 bg-blue-50 dark:bg-darkprimary min-h-screen'>
 							<button
-								className='lg:hidden fixed right-4 top-4  p-2 text-darkprimary text-3xl dark:text-gray-100'
+								className='lg:hidden fixed right-4 top-4  p-2 text-darkprimary text-3xl dark:text-blue-100'
 								onClick={() => setIsOpen(!isOpen)}>
 								{isOpen ? (
 									<div>

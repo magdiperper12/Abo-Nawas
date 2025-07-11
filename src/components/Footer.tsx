@@ -19,7 +19,7 @@ const Footer = () => {
 
 	return (
 		<motion.footer
-			className='bg-darkforth py-16 dark:bg-darkprimary text-darksecoundry dark:text-third pt-12 pb-6 px-6 md:px-16'
+			className='py-16 bg-gradient-to-tr from-primary to-white dark:from-darksecoundry dark:to-darkprimary text-blue-900 dark:text-white px-6'
 			initial={{ opacity: 0, y: 50 }}
 			whileInView={{ opacity: 1, y: 0 }}
 			viewport={{ once: true }}
@@ -27,18 +27,16 @@ const Footer = () => {
 			<div className='max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-10'>
 				{/* Company Info */}
 				<div>
-					<h2 className='text-3xl font-bold mb-4 text-yellow-600 dark:text-third'>
+					<h2 className='text-3xl font-bold mb-4 text-darksecoundry dark:text-darkthird'>
 						{t('brand')}
 					</h2>
-					<p className='text-xl leading-6 text-darkprimary dark:text-darkforth'>
-						<span className='text-yellow-500 dark:text-third'>
-							{t('nav_contact')}
-						</span>{' '}
+					<p className='text-xl leading-6 text-darkprimary dark:text-darkthird'>
+						<span className=''>{t('nav_contact')}</span>{' '}
 						<a
 							href='https://mail.google.com/mail/?view=cm&fs=1&to=abonawas101@gmail.com'
 							target='_blank'
 							rel='noopener noreferrer'
-							className='block text-blue-500 text-xl'>
+							className='block text-third dark:text-secoundry  text-xl'>
 							abonawas101@gmail.com
 						</a>
 					</p>
@@ -47,7 +45,7 @@ const Footer = () => {
 				{/* Quick Links */}
 				<div className='grid grid-cols-2 '>
 					<div>
-						<h3 className='text-lg font-semibold mb-4 text-third dark:text-white'>
+						<h3 className='text-lg font-semibold mb-4 text-darksecoundry dark:text-darkthird'>
 							{t('learn_more')}
 						</h3>
 						<ul className='space-y-2 text-sm'>
@@ -71,7 +69,7 @@ const Footer = () => {
 					{/* Resources */}
 
 					<div>
-						<h3 className='text-lg font-semibold mb-4 text-third dark:text-white'>
+						<h3 className='text-lg font-semibold mb-4 text-darksecoundry dark:text-darkthird'>
 							{t('quickResources')}
 						</h3>
 						<ul className='space-y-2 text-sm'>
@@ -91,7 +89,7 @@ const Footer = () => {
 				</div>
 				{/* Socials */}
 				<div>
-					<h3 className='text-lg font-semibold mb-4 text-third dark:text-white'>
+					<h3 className='text-lg font-semibold mb-4 text-darksecoundry dark:text-darkthird'>
 						{t('followUs')}
 					</h3>
 					<div className='flex gap-4 text-lg'>
@@ -109,10 +107,12 @@ const Footer = () => {
 				</div>
 			</div>
 
-			<div className='text-center text-sm border-t text-darkprimary dark:text-darkforth border-gray-300 dark:border-gray-700 pt-6'>
+			<div className='text-center text-sm border-t text-darkprimary dark:text-primary border-blue-300 dark:border-blue-700 pt-6'>
 				&copy; 2025
-				<span className='text-darkthird dark:text-third px-1'>TOKEN</span> All
-				rights reserved.
+				<span className='text-darksecoundry dark:text-darkthird px-1'>
+					TOKEN
+				</span>{' '}
+				All rights reserved.
 			</div>
 		</motion.footer>
 	);

@@ -54,7 +54,7 @@ const ProductPage = () => {
 
 	if (!id) {
 		return (
-			<main className='flex flex-col items-center justify-center min-h-screen p-10 text-center bg-gray-50 dark:bg-gray-900'>
+			<main className='flex flex-col items-center justify-center min-h-screen p-10 text-center bg-blue-50 dark:bg-blue-900'>
 				<p className='text-xl text-red-500'>المعرف غير متاح</p>
 			</main>
 		);
@@ -94,7 +94,7 @@ const ProductPage = () => {
 				/>
 			</motion.div>
 			<motion.p
-				className='text-2xl text-yellow-950 dark:text-gray-300 mb-4 text-center'
+				className='text-2xl text-yellow-950 dark:text-blue-300 mb-4 text-center'
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1 }}
 				transition={{ delay: 0.4, duration: 0.5 }}>
@@ -102,7 +102,7 @@ const ProductPage = () => {
 			</motion.p>
 			{product.description && (
 				<motion.p
-					className='text-xl text-yellow-600 dark:text-gray-400 max-w-prose mx-auto leading-relaxed'
+					className='text-xl text-yellow-600 dark:text-blue-400 max-w-prose mx-auto leading-relaxed'
 					initial={{ opacity: 0, y: 10 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ delay: 0.6, duration: 0.5 }}>

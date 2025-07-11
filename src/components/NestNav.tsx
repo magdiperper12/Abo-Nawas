@@ -56,7 +56,7 @@ const NestedNav: React.FC = () => {
 					<h3 className='text-sm xl:text-lg font-bold line-clamp-1 text-yellow-500/70 dark:text-white'>
 						{card.title}
 					</h3>
-					<p className='text-xs xl:text-sm text-darkthird line-clamp-1 dark:text-gray-300'>
+					<p className='text-xs xl:text-sm text-darkthird line-clamp-1 dark:text-blue-300'>
 						{card.subtitle}
 					</p>
 				</div>
@@ -139,7 +139,7 @@ const NestedNav: React.FC = () => {
 			<button
 				onClick={() => setMenuOpen(!menuOpen)}
 				aria-label='menu'
-				className='text-darkthird md:hidden dark:text-white -ms-16 p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-blue-500'>
+				className='text-darkthird md:hidden dark:text-white -ms-16 p-2 rounded-lg hover:bg-blue-200 dark:hover:bg-blue-500'>
 				{menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
 			</button>
 

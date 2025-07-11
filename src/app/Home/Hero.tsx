@@ -24,7 +24,7 @@ const Hero = () => {
 		},
 	];
 	return (
-		<div className='  space-y-20 -mt-32     text-darkprimary dark:text-white px-6 '>
+		<div className='  space-y-20 -mt-32     text-darkprimary dark:text-primary px-6 '>
 			<div>
 				<section className=' mx-auto text-center'>
 					<motion.h1
@@ -33,14 +33,19 @@ const Hero = () => {
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.6 }}>
 						{t('welcom')}
-						<span className='text-darkthird px-3'>{t('brand')}</span>
+						<span className='text-darksecoundry dark:text-secoundry px-3'>
+							{t('brand')}
+						</span>
 					</motion.h1>
 					<motion.p
-						className='text-2xl flex flex-col text-gray-700 dark:text-gray-300 mb-8 max-w-2xl mx-auto'
+						className='text-2xl flex flex-col text-darksecoundry dark:text-primary mb-8 max-w-2xl mx-auto'
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						transition={{ delay: 0.2 }}>
-						<span className='text-yellow-600 '> {t('history_title')}</span>
+						<span className='text-darkprimary dark:text-secoundry '>
+							{' '}
+							{t('history_title')}
+						</span>
 						<span className=''> {t('history_text')}</span>
 					</motion.p>
 
@@ -51,12 +56,12 @@ const Hero = () => {
 						transition={{ delay: 0.4 }}>
 						<Link
 							href='/Contact'
-							className='bg-third text-white px-6 py-3 rounded-md font-semibold hover:bg-darkthird transition'>
+							className='bg-forth dark:bg-third text-primary px-6 py-3 rounded-md font-semibold hover:bg-third transition'>
 							{t('nav_contact')}
 						</Link>
 						<Link
 							href='/About'
-							className='border-darkthird dark:border-third border-2 dark:text-white hover:text-white px-6 py-3 rounded-md font-semibold hover:bg-darkthird dark:hover:bg-darkthird transition'>
+							className='border-forth dark:border-third border-2 dark:text-primary hover:text-primary px-6 py-3 rounded-md font-semibold hover:bg-darksecoundry dark:hover:bg-third transition'>
 							{t('learn_more')}
 						</Link>
 					</motion.div>
@@ -75,13 +80,13 @@ const Hero = () => {
 						{items.map((feature, i) => (
 							<motion.div
 								key={i}
-								className='rounded-xl p-6 border border-darkthird bg-white dark:bg-darkprimary shadow-sm hover:shadow-md transition'
+								className='rounded-xl p-6 border border-darkthird dark:border-darksecoundry bg-pritext-primary  shadow-sm hover:shadow-md transition'
 								initial={{ opacity: 0, y: 30 }}
 								whileInView={{ opacity: 1, y: 0 }}
 								transition={{ delay: 0.2 * i }}>
 								<div className='text-4xl mb-3'>{feature.icon}</div>
 								<h3 className='text-xl font-semibold mb-2'>{feature.title}</h3>
-								<p className='text-darksecoundry dark:text-gray-300'>
+								<p className='text-darkprimary dark:text-darkforth'>
 									{feature.desc}
 								</p>
 							</motion.div>

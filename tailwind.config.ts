@@ -9,14 +9,14 @@ const config: Config = {
 	theme: {
 		extend: {
 			colors: {
-				primary: '#F7F7F7',
-				secoundry: '#FFD8A9',
-				third: '#F1A661',
-				forth: '#E38B29',
-				darkprimary: '#07071a',
-				darksecoundry: '#854836',
-				darkthird: '#FFB22C',
-				darkforth: '#F7F7F7',
+				primary: '#E4F1FF',
+				secoundry: '#AED2FF',
+				third: '#9400FF',
+				forth: '#27005D',
+				darkprimary: '#021526',
+				darksecoundry: '#03346E',
+				darkthird: '#6EACDA',
+				darkforth: '#BBE1FA',
 			},
 			animation: {
 				fadeIn: 'fadeIn 0.7s ease-in-out forwards',

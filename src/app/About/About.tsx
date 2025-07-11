@@ -27,7 +27,7 @@ const About = () => {
 	return (
 		<main
 			id='about'
-			className=' py-16 bg-white dark:bg-darkprimary text-darkprimary dark:text-darkthird  p-6 '>
+			className=' py-16 bg-primary dark:bg-darkprimary text-darkprimary dark:text-darkthird  p-6 '>
 			<section className='max-w-5xl mx-auto'>
 				<motion.h1
 					className='text-4xl md:text-5xl dark:text-primary text-darkprimary font-bold mb-6 text-center'
@@ -38,7 +38,7 @@ const About = () => {
 				</motion.h1>
 
 				{/* <motion.p
-					className='text-lg text-darksecoundry dark:text-darkforth text-center mb-12'
+					className='text-lg text-darksecoundry dark:	text-darkforth text-center mb-12'
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
 					transition={{ delay: 0.2 }}>

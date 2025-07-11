@@ -60,7 +60,7 @@ body {
 }
 
 .custom-scroll::-webkit-scrollbar-thumb {
-	background-color: #aab121; /* forth */
+	background-color: #0b1f80ca; /* forth */
 	border-radius: 50%;
 }
 
@@ -69,6 +69,6 @@ body {
 }
 
 .dark .custom-scroll::-webkit-scrollbar-thumb {
-	background-color: #ffff00; /* darkthird */
+	background-color: #6eacda; /* darkthird */
 	border-radius: 50%;
 }

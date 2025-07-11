@@ -33,7 +33,7 @@ const Contact = () => {
 
 				<motion.form
 					onSubmit={handleSubmit}
-					className='relative z-10 max-w-5xl mx-auto grid gap-6 grid-cols-1 md:grid-cols-2 bg-white dark:bg-gray-950 dark:border-2 dark:border-yellow-500 text-darkprimary dark:text-primary p-3 md:p-8 rounded-2xl shadow-xl'
+					className='relative z-10 max-w-5xl mx-auto grid gap-6 grid-cols-1 md:grid-cols-2 bg-white dark:bg-blue-950 dark:border-2 dark:border-yellow-500 text-darkprimary dark:text-primary p-3 md:p-8 rounded-2xl shadow-xl'
 					initial={{ opacity: 0, y: 40 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ delay: 0.3 }}>
@@ -49,7 +49,7 @@ const Contact = () => {
 								required
 								type='text'
 								id='name'
-								className='w-full rounded-lg border border-gray-300 dark:border-darkthird bg-gray-50 dark:bg-darkprimary px-4 py-3 outline-none focus:ring-2 focus:ring-secoundry'
+								className='w-full rounded-lg border border-blue-300 dark:border-darkthird bg-blue-50 dark:bg-darkprimary px-4 py-3 outline-none focus:ring-2 focus:ring-secoundry'
 							/>
 						</div>
 
@@ -61,7 +61,7 @@ const Contact = () => {
 								type='tel'
 								name='phone'
 								placeholder='+20 01021589478'
-								className='w-full rounded-lg border border-gray-300 dark:border-darkthird bg-gray-50 dark:bg-darkprimary px-4 py-3 outline-none focus:ring-2 focus:ring-secoundry text-darkprimary'
+								className='w-full rounded-lg border border-blue-300 dark:border-darkthird bg-blue-50 dark:bg-darkprimary px-4 py-3 outline-none focus:ring-2 focus:ring-secoundry text-darkprimary'
 							/>
 						</div>
 
@@ -75,7 +75,7 @@ const Contact = () => {
 								required
 								type='email'
 								id='email'
-								className='w-full rounded-lg border border-gray-300 dark:border-darkthird bg-gray-50 dark:bg-darkprimary px-4 py-3 outline-none focus:ring-2 focus:ring-secoundry'
+								className='w-full rounded-lg border border-blue-300 dark:border-darkthird bg-blue-50 dark:bg-darkprimary px-4 py-3 outline-none focus:ring-2 focus:ring-secoundry'
 							/>
 						</div>
 					</div>
@@ -91,7 +91,7 @@ const Contact = () => {
 							required
 							id='message'
 							rows={6}
-							className='w-full min-h-36 md:min-h-56 rounded-lg border border-gray-300 dark:border-darkthird bg-gray-50 dark:bg-darkprimary px-4 py-3 outline-none resize-none focus:ring-2 focus:ring-secoundry'></textarea>
+							className='w-full min-h-36 md:min-h-56 rounded-lg border border-blue-300 dark:border-darkthird bg-blue-50 dark:bg-darkprimary px-4 py-3 outline-none resize-none focus:ring-2 focus:ring-secoundry'></textarea>
 					</div>
 
 					{/* Submit Button */}

@@ -59,14 +59,16 @@ const Strategy = () => {
 							initial={{ opacity: 0, y: 20 }}
 							whileInView={{ opacity: 1, y: 0 }}
 							transition={{ duration: 0.5, delay: index * 0.1 }}
-							className='bg-white dark:bg-gray-950 dark:border-2 dark:border-third rounded-2xl overflow-hidden shadow-lg transform transition-all duration-300 hover:shadow-2xl'>
+							className='bg-forth dark:bg-darkprimary dark:border-2 dark:border-darkthird rounded-2xl overflow-hidden shadow-lg transform transition-all duration-300 hover:shadow-2xl'>
 							<div className='p-6 flex items-start gap-4'>
-								<div className='text-3xl text-darksecoundry dark:text-secoundry'>
+								<div className='text-3xl text-secoundry dark:text-secoundry'>
 									{icons[index % icons.length]}
 								</div>
 								<div>
-									<h2 className='text-xl font-semibold mb-2'>{field.title}</h2>
-									<p className='text-sm text-darksecoundry dark:text-gray-300'>
+									<h2 className='text-xl font-semibold mb-2 text-primary'>
+										{field.title}
+									</h2>
+									<p className='text-sm text-darkforth dark:text-darkforth'>
 										{field.description}
 									</p>
 								</div>

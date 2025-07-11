@@ -99,7 +99,7 @@ export default function RootLayout({
 			</head>
 
 			<body
-				className={`bg-gradient-to-r relative ${roboto.className} text-gray-700 dark:text-gray-100 custom-scroll overflow-x-hidden bg-primary dark:bg-[#0c0c23]`}>
+				className={`bg-gradient-to-r relative ${roboto.className} text-darkprimary dark:text-primary custom-scroll overflow-x-hidden bg-primary dark:bg-darkprimary`}>
 				<div className='sticky top-0  z-50'>
 					<Header />
 				</div>

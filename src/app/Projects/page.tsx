@@ -45,7 +45,7 @@ export default function Projects() {
 	}
 
 	return (
-		<section className='py-24 px-4 space-y-16 text-gray-700 dark:text-white transition-colors duration-500'>
+		<section className='py-24 px-4 space-y-16 text-blue-700 dark:text-white transition-colors duration-500'>
 			<Strategy />
 
 			<div className='max-w-7xl mx-auto'>
@@ -66,7 +66,7 @@ export default function Projects() {
 							viewport={{ once: true, amount: 0.5 }}
 							transition={{ delay: index * 0.1, duration: 0.6 }}
 							className='rounded-xl overflow-hidden group p-4 bg-white dark:bg-darkprimary border-2 dark:border-darkthird/25 shadow-lg hover:shadow-xl transition duration-300'>
-							<div className='relative w-full h-[250px] md:h-[400px] overflow-hidden bg-gray-200 dark:bg-gray-950'>
+							<div className='relative w-full h-[250px] md:h-[400px] overflow-hidden bg-blue-200 dark:bg-blue-950'>
 								<Image
 									src={project.image}
 									alt={project.title}
@@ -99,7 +99,7 @@ export default function Projects() {
 			{/* Overlay Details */}
 			{activeProjectIndex !== null && (
 				<div className='fixed z-50 -top-20 left-0 w-full h-full bg-darkprimary/60 flex items-center justify-center'>
-					<div className='bg-white dark:bg-gray-950 p-6 rounded-xl max-w-4xl w-full max-h-[95vh] overflow-auto shadow-2xl'>
+					<div className='bg-white dark:bg-blue-950 p-6 rounded-xl max-w-4xl w-full max-h-[95vh] overflow-auto shadow-2xl'>
 						<div className='relative w-full h-[250px] md:h-[350px] mb-4'>
 							<Image
 								src={projects[activeProjectIndex].image}
@@ -113,11 +113,11 @@ export default function Projects() {
 							{projects[activeProjectIndex].title}
 						</h2>
 
-						<p className='text-xl mb-4 text-gray-700 dark:text-gray-300'>
+						<p className='text-xl mb-4 text-blue-700 dark:text-blue-300'>
 							{projects[activeProjectIndex].description}
 						</p>
 
-						<ul className='list-disc pl-5 text-base text-gray-800 dark:text-gray-300 space-y-2'>
+						<ul className='list-disc pl-5 text-base text-blue-800 dark:text-blue-300 space-y-2'>
 							{projects[activeProjectIndex].subDescription.map((item, idx) => (
 								<li key={idx}>{item}</li>
 							))}
