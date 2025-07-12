@@ -9,12 +9,12 @@ import Strategy from './Projects/Strategy';
 
 function Collection() {
 	return (
-		<main className=' pt-32  overflow-x-hidden'>
+		<main className='   overflow-x-hidden'>
 			{/* <ParticlesComponent id='Particles' /> */}
-			<div className='my-16 mt-40'>
-				<Hero />
-			</div>
-			<div className=' mt-28  space-y-36  z-10 '>
+
+			<Hero />
+
+			<div className=' mt-64  space-y-36  z-10 '>
 				<InfiniteMarquee />
 				<About />
 				<Strategy />

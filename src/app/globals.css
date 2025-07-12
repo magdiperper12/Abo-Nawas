@@ -72,3 +72,7 @@ body {
 	background-color: #6eacda; /* darkthird */
 	border-radius: 50%;
 }
+.dark .custom-scroll::-webkit-scrollbar-thumb {
+	background-color: #eff7ff; /* darkthird */
+	border-radius: 50%;
+}
