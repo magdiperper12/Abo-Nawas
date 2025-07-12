@@ -19,7 +19,7 @@ const Header = () => {
 	const navLinks = [
 		{ name: t('nav_home'), href: '/' },
 		{ name: t('nav_projects'), href: '/Projects' },
-		{ name: t('nav_gallery'), href: '/Gallary' },
+		{ name: t('catalog'), href: '/Catalog' },
 		{ name: t('nav_contact'), href: '/Contact' },
 	];
 	return (
