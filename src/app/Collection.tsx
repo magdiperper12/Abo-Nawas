@@ -4,8 +4,8 @@ import React from 'react';
 import Hero from './Home/Hero';
 import InfiniteMarquee from '../components/InfiniteMarquee';
 import About from './About/About';
-import Services from './Services/Service';
 import Strategy from './Projects/Strategy';
+import Services from './Services/page';
 
 function Collection() {
 	return (

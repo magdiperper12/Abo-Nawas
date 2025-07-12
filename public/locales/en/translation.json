@@ -63,6 +63,8 @@
 	"product_sections": [
 		{
 			"category": "Iron Gates",
+			"mainimage": "/image/bawabat cnc/bawaba.jpeg",
+			"id": 1,
 			"cards": [
 				{
 					"id": "iron-gates-classic-villa-gate",
@@ -111,6 +113,8 @@
 
 		{
 			"category": "Stairs & Railings",
+			"mainimage": "/image/Handerelate/selem.jpeg",
+			"id": 2,
 			"cards": [
 				{
 					"id": "stairs-railings-indoor-railing",
@@ -145,6 +149,8 @@
 
 		{
 			"category": "Window Protection",
+			"mainimage": "/image/shebak/shebak.png",
+			"id": 3,
 			"cards": [
 				{
 					"id": "window-protection-modern-window-grill",
@@ -179,6 +185,8 @@
 
 		{
 			"category": "Baragolla",
+			"mainimage": "/image/bargollat/bargola.jpeg",
+			"id": 4,
 			"cards": [
 				{
 					"id": "baragolla-car-shade",
@@ -220,6 +228,8 @@
 
 		{
 			"category": "Hanger",
+			"mainimage": "/image/hanger/hanger.jpg",
+			"id": 5,
 			"cards": [
 				{
 					"id": "hanger-car-shade",
@@ -254,6 +264,8 @@
 
 		{
 			"category": "Metal Accessories",
+			"mainimage": "/image/metal Acsessory/table.jpg",
+			"id": 6,
 			"cards": [
 				{
 					"id": "metal-accessories-car-shade",
@@ -294,6 +306,8 @@
 		},
 		{
 			"category": "Gates & Sliding Doors",
+			"mainimage": "/image/Bawabat Grar/garar8.jpg",
+			"id": 7,
 			"cards": [
 				{
 					"id": "gates-sliding-modern-iron-gate",
@@ -341,6 +355,8 @@
 		},
 		{
 			"category": "Balcony Railings",
+			"mainimage": "/image/Balakonat/balakona.jpg",
+			"id": 8,
 			"cards": [
 				{
 					"id": "balcony-railings-classic-style",
