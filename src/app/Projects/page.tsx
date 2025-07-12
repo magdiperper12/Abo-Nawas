@@ -98,8 +98,8 @@ export default function Projects() {
 
 			{/* Overlay Details */}
 			{activeProjectIndex !== null && (
-				<div className='fixed z-50 -top-20 left-0 w-full h-full bg-darkprimary/60 flex items-center justify-center'>
-					<div className='bg-primary shadow-secoundry dark:shadow-darksecoundry dark:bg-blue-950 p-6 rounded-xl max-w-4xl w-full max-h-[95vh] overflow-auto shadow-2xl'>
+				<div className='fixed z-50 -top-20 left-0 w-full h-[105vh] bg-darkprimary/80 flex items-center justify-center'>
+					<div className='bg-primary shadow-darkprimary  dark:bg-darkprimary p-6 rounded-xl max-w-4xl w-full max-h-[95vh] overflow-auto shadow-2xl'>
 						<div className='relative w-full h-[250px] md:h-[350px] mb-4'>
 							<Image
 								src={projects[activeProjectIndex].image}
@@ -109,15 +109,15 @@ export default function Projects() {
 							/>
 						</div>
 
-						<h2 className='text-2xl text-orange-400 font-bold text-center mb-4'>
+						<h2 className='text-2xl text-darksecoundry dark:text-darkforth font-bold text-center mb-4'>
 							{projects[activeProjectIndex].title}
 						</h2>
 
-						<p className='text-xl mb-4 text-blue-700 dark:text-blue-300'>
+						<p className='text-xl mb-4 text-darkprimary dark:text-primary'>
 							{projects[activeProjectIndex].description}
 						</p>
 
-						<ul className='list-disc pl-5 text-base text-blue-800 dark:text-blue-300 space-y-2'>
+						<ul className='list-disc pl-5 text-base text-darkprimary dark:text-primary space-y-2'>
 							{projects[activeProjectIndex].subDescription.map((item, idx) => (
 								<li key={idx}>{item}</li>
 							))}
@@ -126,7 +126,7 @@ export default function Projects() {
 						<div className='text-end mt-6'>
 							<button
 								onClick={handleClose}
-								className='px-4 py-2 bg-[#F1A661] dark:bg-[#FFB22C] text-primary shadow-secoundry dark:shadow-darksecoundry font-semibold rounded-full hover:opacity-90 transition'>
+								className='px-4 py-2 bg-black dark:bg-primary text-primary shadow-secoundry dark:shadow-darksecoundry font-semibold rounded-full hover:opacity-90 transition dark:text-darkprimary'>
 								{t('Close')}
 							</button>
 						</div>
