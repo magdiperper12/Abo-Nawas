@@ -10,8 +10,6 @@ import Services from './Services/page';
 function Collection() {
 	return (
 		<main className='   overflow-x-hidden'>
-			{/* <ParticlesComponent id='Particles' /> */}
-
 			<Hero />
 
 			<div className=' mt-64  space-y-36  z-10 '>
@@ -19,7 +17,6 @@ function Collection() {
 				<About />
 				<Strategy />
 				<Services />
-				{/* <Projects /> */}
 			</div>
 		</main>
 	);

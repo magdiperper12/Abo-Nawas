@@ -54,7 +54,7 @@ const Servicesitems = () => {
 						<Link
 							key={card.id}
 							href={`/Services/Subservices/${card.id}`}
-							className='group snap-center min-w-[280px] md:min-w-[320px] lg:min-w-[360px] flex-shrink-0 rounded-2xl border p-4 shadow-lg bg-darksecoundry dark:bg-darkprimary hover:shadow-2xl transition-shadow duration-300 relative overflow-hidden'>
+							className='group snap-center w-[360px] flex-shrink-0 rounded-2xl border p-4 shadow-lg bg-darksecoundry dark:bg-darkprimary hover:shadow-2xl transition-shadow duration-300 relative overflow-hidden'>
 							<motion.div
 								initial={{ opacity: 0, y: 60 }}
 								whileInView={{ opacity: 1, y: 0 }}
