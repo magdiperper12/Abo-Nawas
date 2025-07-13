@@ -20,6 +20,7 @@ const Header = () => {
 		{ name: t('nav_home'), href: '/' },
 		{ name: t('nav_projects'), href: '/Projects' },
 		{ name: t('catalog'), href: '/Catalog' },
+		{ name: t('Rosomat'), href: '/Rosomat' },
 		{ name: t('nav_contact'), href: '/Contact' },
 	];
 	return (

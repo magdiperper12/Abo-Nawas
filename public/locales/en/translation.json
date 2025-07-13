@@ -15,7 +15,7 @@
 	"connectTitle": " connect us",
 	"history_title": "The Beginning",
 	"whyChoose": "Why Chose Abo Nawas ?",
-	"history_text": "Our journey began in 1987 when my father, Abdel-Sand Shernouby, established a small workshop specializing in metal and wrought iron works under the name \"El-Sharnouby for Metal & Wrought Iron Works\" — a name that stood for craftsmanship and quality from the very first day.",
+	"history_text": "Our journey began in 1987 when my father, Abdel-Sand Shernouby, established a small workshop in the heart of the industrial area, specializing in metal and wrought iron works under the name \"El-Sharnouby for Metal & Wrought Iron Works\" — a name that stood for craftsmanship and quality from the very first day. Thanks to his deep experience and passion for the trade, he built a solid reputation among clients, paving the way for the workshop to grow from a small family business into a trusted name in the market, founded on precision, quality, and trust.",
 	"continue_title": "Continuity and Development",
 	"continue_text": "In 2018, I carried on the legacy, building on a foundation of experience and trust while adding a modern touch to meet today’s needs.",
 	"learn_more": "Learn More About Us",
@@ -40,7 +40,9 @@
 	"expertiseTitle": "Fields of ",
 	"area": "Expertise",
 	"expertiseDescription": "We offer a diverse range of expertise in metalwork, enabling us to professionally handle your project requirements.",
-
+	"quickResources": "Quick Resources",
+	"Rosomat": "engineering drawings",
+	"descRosomat": "At El-Sharnouby, we are committed to delivering precise and detailed engineering drawings that reflect our clients' needs and bring their vision to life. Each design is carefully prepared by a specialized team using the latest software and technologies to ensure the highest standards of accuracy and quality.",
 	"expertiseFields": [
 		{
 			"title": "Wrought Iron & Decorative Metal",

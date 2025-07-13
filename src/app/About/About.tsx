@@ -27,7 +27,7 @@ const About = () => {
 	return (
 		<main
 			id='about'
-			className=' py-16 bg-primary dark:bg-darkprimary text-darkprimary dark:text-darkthird  p-6 '>
+			className=' py-16 pt-32 bg-primary dark:bg-darkprimary text-darkprimary dark:text-darkthird  p-6 '>
 			<section className='max-w-5xl mx-auto'>
 				<motion.h1
 					className='text-4xl md:text-5xl dark:text-primary text-darkprimary font-bold mb-6 text-center'

@@ -67,25 +67,6 @@ const Footer = () => {
 					</div>
 
 					{/* Resources */}
-
-					<div>
-						<h3 className='text-lg font-semibold mb-4 text-darksecoundry dark:text-darkthird'>
-							{t('quickResources')}
-						</h3>
-						<ul className='space-y-2 text-sm'>
-							{[{ label: t('quickPricing'), href: '/Pricing' }].map(
-								({ label, href }) => (
-									<li key={label}>
-										<Link
-											href={href}
-											className='hover:text-darkprimary dark:hover:text-darkforth transition-colors duration-200'>
-											{label}
-										</Link>
-									</li>
-								)
-							)}
-						</ul>
-					</div>
 				</div>
 				{/* Socials */}
 				<div>

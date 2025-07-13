@@ -42,10 +42,12 @@ const Hero = () => {
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						transition={{ delay: 0.2 }}>
-						<span className='block text-darkthird dark:text-secoundry'>
+						<span className='block text-darkthird dark:text-secoundry font-bold'>
 							{t('history_title')}
 						</span>
-						<span className='block text-primary'>{t('history_text')}</span>
+						<span className='block text-primary font-bold'>
+							{t('history_text')}
+						</span>
 					</motion.p>
 
 					{/* Call to Actions */}
