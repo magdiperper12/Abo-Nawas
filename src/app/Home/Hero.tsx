@@ -95,6 +95,12 @@ const Hero = () => {
 						</motion.div>
 					))}
 				</div>
+				<video
+					src={'/image/other/video/video2.mp4'}
+					controls
+					playsInline
+					className=' w-full mt-20 h-60 lg:h-80 object-cover rounded-lg'
+				/>
 			</section>
 		</div>
 	);

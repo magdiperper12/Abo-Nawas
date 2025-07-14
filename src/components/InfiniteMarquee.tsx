@@ -19,7 +19,7 @@ const InfiniteMarquee: React.FC = () => {
 			transition: {
 				repeat: Infinity,
 				repeatType: 'loop',
-				duration: 25,
+				duration: 16,
 				ease: 'linear',
 			},
 		});

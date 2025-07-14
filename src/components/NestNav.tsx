@@ -66,17 +66,20 @@ const NestedNav: React.FC = () => {
 	return (
 		<div>
 			{/* Desktop Navigation */}
-			<nav className='flex gap-4 xl:gap-8 relative py-4 px-6 animate-fadeIn'>
+			<nav className='flex gap-4 xl:gap-8 relative  animate-fadeIn'>
 				<div
 					className='relative'
 					onMouseEnter={() => setIsHovered(true)}
 					onMouseLeave={() => setIsHovered(false)}>
 					<Link
 						href='/Services'
-						className='hover:text-darkthird text-2xl md:text-xl flex justify-center items-center gap-1  focus:text-darksecoundry   transition-all duration-300 ease-in-out'>
+						className='hover:text-darkthird  ms-5 text-2xl md:text-xl font-bold flex justify-center items-center gap-1  focus:text-darksecoundry   transition-all duration-300 ease-in-out'>
 						{t('nav_products')}
 						<span className='hidden md:flex justify-center items-center'>
 							▽
+						</span>
+						<span className='flex md:hidden justify-center items-center text-2xl font-bold'>
+							+
 						</span>
 					</Link>
 

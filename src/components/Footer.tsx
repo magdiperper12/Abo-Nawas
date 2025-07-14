@@ -53,7 +53,7 @@ const Footer = () => {
 								{ label: t('nav_home'), href: '/' },
 								{ label: t('nav_about'), href: '#about' },
 								{ label: t('nav_projects'), href: '#services' },
-								{ label: t('nav_products'), href: '/Contact' },
+								{ label: t('nav_products'), href: '/Projects' },
 							].map(({ label, href }) => (
 								<li key={label}>
 									<Link
@@ -73,15 +73,15 @@ const Footer = () => {
 					<h3 className='text-lg font-semibold mb-4 text-darksecoundry dark:text-darkthird'>
 						{t('followUs')}
 					</h3>
-					<div className='flex gap-4 text-lg'>
+					<div className='flex gap-4 text-lg text-third'>
 						<a
-							href='https://www.facebook.com/profile.php?id=61565101624769'
-							className='hover:text-blue-600 transition-colors'>
+							href='https://www.facebook.com/people/%D8%A3%D8%A8%D9%88-%D9%86%D9%88%D8%A7%D8%B3-%D9%84%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%87-%D9%88%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%84%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AA%D8%B4%D9%83%D9%8A%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D9%87/100063877210927/?mibextid=wwXIfr&rdid=NndfTi0rnWAH0bk6&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Er1BezmBx%2F%3Fmibextid%3DwwXIfr'
+							className='hover:text-darksecoundry transition-colors'>
 							<FaFacebookF />
 						</a>
 						<a
 							href='#'
-							className='hover:text-blue-700 transition-colors'>
+							className='hover:text-darksecoundry transition-colors'>
 							<FaLinkedinIn />
 						</a>
 					</div>
@@ -90,9 +90,11 @@ const Footer = () => {
 
 			<div className='text-center text-sm border-t text-darkprimary dark:text-primary border-blue-300 dark:border-blue-700 pt-6'>
 				&copy; 2025
-				<span className='text-darksecoundry dark:text-darkthird px-1'>
-					TOKEN
-				</span>{' '}
+				<Link
+					href={'https://wa.me/201270187356'}
+					className='text-third dark:text-darkthird px-1'>
+					Magdi
+				</Link>{' '}
 				All rights reserved.
 			</div>
 		</motion.footer>

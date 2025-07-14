@@ -12,7 +12,7 @@ function Collection() {
 		<main className='   overflow-x-hidden'>
 			<Hero />
 
-			<div className=' mt-64  space-y-36  z-10 '>
+			<div className=' mt-40  space-y-20  z-10 '>
 				<InfiniteMarquee />
 				<About />
 				<Strategy />

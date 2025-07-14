@@ -21,6 +21,7 @@ const Header = () => {
 		{ name: t('nav_projects'), href: '/Projects' },
 		{ name: t('catalog'), href: '/Catalog' },
 		{ name: t('Rosomat'), href: '/Rosomat' },
+		{ name: t('Other'), href: '/other' },
 		{ name: t('nav_contact'), href: '/Contact' },
 	];
 	return (
@@ -40,7 +41,7 @@ const Header = () => {
 				</Link>
 
 				{/* Desktop Navigation */}
-				<nav className='hidden lg:flex items-center  gap-6  font-bold text-xl'>
+				<nav className='hidden lg:flex items-center  gap-9  font-bold text-lg'>
 					{navLinks.map((link, i) => (
 						<motion.div
 							key={i}
@@ -48,7 +49,7 @@ const Header = () => {
 							whileInView={{ opacity: 1, x: 0 }}
 							transition={{ duration: 0.3, delay: 0.2 * i }}>
 							<Link
-								className='hover:text-darksecoundry transition focus:text-third  px-3'
+								className='hover:text-darksecoundry transition focus:text-third  '
 								href={link.href}>
 								{link.name}
 							</Link>
@@ -114,6 +115,7 @@ const Header = () => {
 								</Link>
 							</motion.div>
 						))}
+
 						<div onClick={() => setIsOpen(!isOpen)}>
 							<NestedNav />
 						</div>

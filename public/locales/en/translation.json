@@ -43,6 +43,8 @@
 	"quickResources": "Quick Resources",
 	"Rosomat": "engineering drawings",
 	"descRosomat": "At El-Sharnouby, we are committed to delivering precise and detailed engineering drawings that reflect our clients' needs and bring their vision to life. Each design is carefully prepared by a specialized team using the latest software and technologies to ensure the highest standards of accuracy and quality.",
+	"Other": "Other Projects",
+	"descother_text": "Explore a variety of creative and technical works beyond the main portfolio. These projects highlight diverse skills and unique approaches.",
 	"expertiseFields": [
 		{
 			"title": "Wrought Iron & Decorative Metal",
@@ -476,12 +478,21 @@
 			"text": "Hassan Allam Construction"
 		},
 		{
+			"icon": "/image/Logo/ecg.png",
+			"text": "ECG"
+		},
+		{
 			"icon": "/image/Logo/Gama.png",
 			"text": "Gama Construction"
 		},
 		{
 			"icon": "/image/Logo/Orasco.png",
 			"text": "Orascom"
+		},
+
+		{
+			"icon": "/image/Logo/AACE.jpeg",
+			"text": "AACE"
 		}
 	],
 	"addressLabel": "Address",
