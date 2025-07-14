@@ -51,11 +51,12 @@ const catalogData: ProductCard[] = [
 ];
 const otherVideo: video[] = [
 	{
-		video: '/image/other/video/video.mp4',
+		video: '/image/other/video/video_with_new_audio.mp4',
 	},
 	{
-		video: '/image/other/video/video2.mp4',
+		video: '/image/other/video/first.mp4',
 	},
+
 	{
 		video: '/image/other/video/video3.mp4',
 	},

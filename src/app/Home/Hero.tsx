@@ -95,12 +95,23 @@ const Hero = () => {
 						</motion.div>
 					))}
 				</div>
-				<video
-					src={'/image/other/video/video2.mp4'}
-					controls
-					playsInline
-					className=' w-full mt-20 h-60 lg:h-80 object-cover rounded-lg'
-				/>
+
+				<div className='flex flex-col lg:flex-row items-center justify-center gap-8'>
+					<video
+						src={'/image/other/video/video_with_new_audio.mp4'}
+						controls
+						playsInline
+						autoPlay
+						className=' w-full mt-20 h-60 lg:h-80 object-cover rounded-lg'
+					/>
+					<video
+						src={'/image/other/video/first.mp4'}
+						controls
+						playsInline
+						autoPlay
+						className=' w-full mt-20 h-60 lg:h-80 object-cover rounded-lg'
+					/>
+				</div>
 			</section>
 		</div>
 	);
