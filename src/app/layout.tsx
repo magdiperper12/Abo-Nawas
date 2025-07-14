@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 			'نقدم أعمال الكريتال والحدادة بأعلى جودة، بتصاميم فريدة تشمل البوابات، السلالم، الشبابيك، والمظلات. تأسيس متين منذ 1987 وتطوير مستمر حتى اليوم.',
 		type: 'website',
 		locale: 'ar_EG',
-		url: 'https://sharnouby-metal.com/',
+		url: 'https://abonawas.com/',
 		images: [
 			{
 				url: '/image/newlogo-removebg-preview.png',
@@ -61,22 +61,20 @@ export default function RootLayout({
 				/>
 				<link
 					rel='canonical'
-					href='https://sharnouby-metal.com/'
+					href='https://abonawas.com/'
 				/>
 
 				<script
 					type='application/ld+json'
 					dangerouslySetInnerHTML={{
 						__html: JSON.stringify({
-							'@context': 'https://schema.org',
+							'@context': 'https://abonawas.com/',
 							'@type': 'Organization',
 							name: 'ابونواس لأعمال الحدادة والكريتال',
-							url: 'https://sharnouby-metal.com/',
+							url: 'https://abonawas.com/',
 							logo: '/image/newlogo-removebg-preview.png',
 							sameAs: [
-								'https://www.facebook.com/ElSharnoubyMetal',
-								'https://www.instagram.com/ElSharnoubyMetal',
-								'https://www.linkedin.com/company/elsharnouby-metal',
+								'https://www.facebook.com/people/%D8%A3%D8%A8%D9%88-%D9%86%D9%88%D8%A7%D8%B3-%D9%84%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%87-%D9%88%D8%A7%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%84%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AA%D8%B4%D9%83%D9%8A%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D9%86%D9%8A%D9%87/100063877210927/?mibextid=wwXIfr&rdid=NndfTi0rnWAH0bk6&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Er1BezmBx%2F%3Fmibextid%3DwwXIfr',
 							],
 							description:
 								'ورشة ابونواس تأسست عام 1987 على يد الحاج عبد السند الشرنوبي، مختصة في أعمال الحدادة والكريتال، وتُقدم بوابات وسلالم ومظلات بجودة وحِرفة عالية.',
