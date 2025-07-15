@@ -101,14 +101,12 @@ const Hero = () => {
 						src={'/image/other/video/video_with_new_audio.mp4'}
 						controls
 						playsInline
-						autoPlay
 						className=' w-full mt-20 h-60 lg:h-80 object-cover rounded-lg'
 					/>
 					<video
 						src={'/image/other/video/first.mp4'}
 						controls
 						playsInline
-						autoPlay
 						className=' w-full mt-20 h-60 lg:h-80 object-cover rounded-lg'
 					/>
 				</div>

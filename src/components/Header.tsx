@@ -31,7 +31,7 @@ const Header = () => {
 					href='/'
 					className='w-20 h-20 overflow-hidden'>
 					<Image
-						src='/image/newlogo-removebg-preview.png'
+						src='/image/Abo Nawas.png'
 						alt='شركة كودا - تطوير البرمجيات والذكاء الاصطناعي'
 						width={100}
 						height={100}

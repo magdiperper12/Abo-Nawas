@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://abonawas.com/
+Sitemap: https://abonawas.com/sitemap.xml
