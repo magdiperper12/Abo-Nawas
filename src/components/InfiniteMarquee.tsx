@@ -3,6 +3,7 @@
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useTranslation } from 'next-i18next';
+import { useRef, useState } from 'react';
 
 interface Partner {
 	icon: string;
@@ -11,23 +12,19 @@ interface Partner {
 
 const InfiniteMarquee: React.FC = () => {
 	const { t } = useTranslation();
-	const controls = useAnimation();
 	const rawInfinitData = t('infinit', { returnObjects: true });
 	const infinitData = Array.isArray(rawInfinitData)
 		? (rawInfinitData as Partner[])
 		: [];
 
+	const marqueeRef = useRef<HTMLDivElement>(null);
+	const [width, setWidth] = useState(0);
+
 	useEffect(() => {
-		controls.start({
-			x: '-100%',
-			transition: {
-				duration: 20, // يمكنك تعديل السرعة هنا
-				ease: 'linear',
-				repeat: Infinity,
-				repeatType: 'loop',
-			},
-		});
-	}, []);
+		if (marqueeRef.current) {
+			setWidth(marqueeRef.current.scrollWidth / 2);
+		}
+	}, [infinitData]);
 
 	return (
 		<div className='text-center'>
@@ -39,10 +36,17 @@ const InfiniteMarquee: React.FC = () => {
 
 			<div className='w-full overflow-hidden bg-forth dark:bg-black dark:border-y-2 border-y-darkthird py-12'>
 				<motion.div
+					ref={marqueeRef}
 					className='flex whitespace-nowrap gap-10 text-primary dark:text-secoundry text-lg font-medium'
-					initial={{ x: '100%' }}
-					animate={controls}>
-					{infinitData.map((item, index) => (
+					animate={{ x: [-width, 0] }}
+					transition={{
+						duration: 20,
+						ease: 'linear',
+						repeat: Infinity,
+					}}
+				>
+					{/* Repeat the content twice */}
+					{[...infinitData, ...infinitData].map((item, index) => (
 						<div
 							key={index}
 							className='flex items-center gap-2 px-4 min-w-max uppercase tracking-wide cursor-pointer'>
