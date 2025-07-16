@@ -40,11 +40,10 @@ const InfiniteMarquee: React.FC = () => {
 					className='flex whitespace-nowrap gap-10 text-primary dark:text-secoundry text-lg font-medium'
 					animate={{ x: [-width, 0] }}
 					transition={{
-						duration: 20,
+						duration: 30,
 						ease: 'linear',
 						repeat: Infinity,
-					}}
-				>
+					}}>
 					{/* Repeat the content twice */}
 					{[...infinitData, ...infinitData].map((item, index) => (
 						<div
