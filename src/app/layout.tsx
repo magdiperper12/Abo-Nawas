@@ -69,6 +69,10 @@ export default function RootLayout({
 					name='application-name'
 					content='أبو نواس لأعمال الحدادة والكريتال |  Abo Nawas The Leading Metalwork Wrought Iron'
 				/>
+				<meta
+					name='image'
+					content='https://abonawas.com/favicon.png'
+				/>
 				<link
 					rel='canonical'
 					href='https://abonawas.com/'
@@ -80,7 +84,7 @@ export default function RootLayout({
 							{
 								'@context': 'https://schema.org',
 								'@type': 'Organization',
-								name: 'أبو نواس لأعمال الحدادة والكريتال',
+								name: 'أبو نواس لأعمال الحدادة والكريتال  | Abo Nawas - Metalwork Since 1987',
 								url: 'https://abonawas.com/',
 								logo: 'https://abonawas.com/favicon.png',
 								sameAs: [
