@@ -8,10 +8,12 @@ import { Metadata } from 'next';
 const roboto = Roboto({ subsets: ['latin'], weight: '700' });
 
 export const metadata: Metadata = {
+	metadataBase: new URL('https://abonawas.com'),
 	title:
 		'أبو نواس  - الحدادة والكريتال  | Abo Nawas The Leading Metalwork Wrought Iron ',
 	description:
 		'أبو نواس - خبرة 35 سنة في تصميم وتصنيع البوابات الحديدية، درابزين السلالم، الأسوار، والهياكل المعدنية. نقدم حلول حدادة متينة وجميلة تناسب المنازل والفلل والمصانع. نخدم كفر الشيخ وطنطا والدلتا. | Abo Nawas – 35 years of expertise in designing and manufacturing iron gates, stair railings, fences, and metal structures. Durable and elegant metalwork solutions for homes, villas, and factories. Serving Kafr El-Sheikh, Tanta, and the Delta region. ',
+
 	openGraph: {
 		title: 'أبو نواس حديد  | Abo Nawas  Iron Designs ',
 		description:
@@ -51,7 +53,7 @@ export default function RootLayout({
 				<meta
 					name='viewport'
 					content='width=device-width, initial-scale=1'
-				/>{' '}
+				/>
 				<meta
 					name='author'
 					content='أبو نواس | Abo Nawas'
