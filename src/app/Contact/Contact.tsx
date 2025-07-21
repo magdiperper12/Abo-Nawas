@@ -99,7 +99,7 @@ const Contact = () => {
 					{/* Submit Button */}
 					<motion.a
 						className=' md:col-span-2 bg-third dark:bg-darkprimary text-primary text-base sm:text-lg font-semibold py-3 px-6 rounded-xl hover:bg-darkthird transition-all duration-200 flex justify-center items-center w-1/2 m-auto'
-						href='https://mail.google.com/mail/?view=cm&fs=1&to=abonawas101@gmail.com'
+						href='https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ceo@abonawas.com'
 						target='_blank'
 						rel='noopener noreferrer'>
 						{t('sendMessage')}

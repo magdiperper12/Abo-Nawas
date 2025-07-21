@@ -498,12 +498,12 @@
 	"addressLabel": "Address",
 	"addressValue": "New Cairo – South 90th Street",
 	"phoneLabel": "Phone",
-	"phoneValue": "0100 123 4567",
+	"phoneValue": "+20 100 295 0495",
 	"emailLabel": "Email",
-	"emailValue": "info@yourcompany.com",
+	"emailValue": "ceo@abonawas.com",
 	"formName": "Full Name",
 	"formPhone": "Phone Number",
-	"formPhonePlaceholder": "+20 01021589478",
+	"formPhonePlaceholder": "+20 100 295 0495",
 	"formEmail": "Email Address",
 	"formMessage": "Write your message"
 }

@@ -499,12 +499,12 @@
 	"addressLabel": "العنوان",
 	"addressValue": "القاهرة الجديدة - شارع التسعين الجنوبي",
 	"phoneLabel": "رقم الهاتف",
-	"phoneValue": "0100 123 4567",
+	"phoneValue": "+20 100 295 0495",
 	"emailLabel": "البريد الإلكتروني",
-	"emailValue": "info@yourcompany.com",
+	"emailValue": "ceo@abonawas.com",
 	"formName": "الاسم الكامل",
 	"formPhone": "رقم الهاتف",
-	"formPhonePlaceholder": "+20 01021589478",
+	"formPhonePlaceholder": "+20 100 295 0495",
 	"formEmail": "البريد الإلكتروني",
 	"formMessage": "اكتب رسالتك"
 }
