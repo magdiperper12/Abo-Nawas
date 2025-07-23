@@ -40,7 +40,7 @@ const InfiniteMarquee: React.FC = () => {
 					className='flex whitespace-nowrap gap-10 text-primary dark:text-secoundry text-lg font-medium'
 					animate={{ x: [-width, 0] }}
 					transition={{
-						duration: 30,
+						duration: 60,
 						ease: 'linear',
 						repeat: Infinity,
 					}}>

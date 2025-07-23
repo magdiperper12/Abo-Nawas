@@ -497,7 +497,7 @@
 		}
 	],
 	"addressLabel": "العنوان",
-	"addressValue": "القاهرة الجديدة - شارع التسعين الجنوبي",
+	"addressValue": "بلطيم - كفر الشيخ - مصر",
 	"phoneLabel": "رقم الهاتف",
 	"phoneValue": "+20 100 295 0495",
 	"emailLabel": "البريد الإلكتروني",
@@ -506,5 +506,6 @@
 	"formPhone": "رقم الهاتف",
 	"formPhonePlaceholder": "+20 100 295 0495",
 	"formEmail": "البريد الإلكتروني",
-	"formMessage": "اكتب رسالتك"
+	"formMessage": "اكتب رسالتك",
+	"formSubmit": "إرسال الرسالة"
 }

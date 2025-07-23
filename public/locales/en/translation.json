@@ -478,7 +478,7 @@
 			"text": "Hassan Allam Construction"
 		},
 		{
-			"icon": "/image/Logo/ecg.png",
+			"icon": "/image/Logo/ECG2.PNG",
 			"text": "ECG"
 		},
 		{
@@ -496,7 +496,7 @@
 		}
 	],
 	"addressLabel": "Address",
-	"addressValue": "New Cairo – South 90th Street",
+	"addressValue": " Baltim - Kafr El Sheikh - Egypt",
 	"phoneLabel": "Phone",
 	"phoneValue": "+20 100 295 0495",
 	"emailLabel": "Email",
@@ -505,5 +505,6 @@
 	"formPhone": "Phone Number",
 	"formPhonePlaceholder": "+20 100 295 0495",
 	"formEmail": "Email Address",
-	"formMessage": "Write your message"
+	"formMessage": "Write your message",
+	"formSubmit": "Send Message"
 }

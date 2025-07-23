@@ -33,11 +33,11 @@ const Footer = () => {
 					<p className='text-xl leading-6 text-darkprimary dark:text-darkthird'>
 						<span className=''>{t('nav_contact')}</span>{' '}
 						<a
-							href='https://mail.google.com/mail/?view=cm&fs=1&to=abonawas101@gmail.com'
+							href='https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ceo@abonawas.com'
 							target='_blank'
 							rel='noopener noreferrer'
 							className='block text-third dark:text-secoundry  text-xl'>
-							abonawas101@gmail.com
+							ceo@abonawas.com
 						</a>
 					</p>
 				</div>

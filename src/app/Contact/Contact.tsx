@@ -56,7 +56,7 @@ const Contact = () => {
 
 						<div>
 							<label className='block text-sm font-semibold mb-1'>
-								Phone Number
+								{t('formPhone')}
 							</label>
 							<input
 								type='tel'
@@ -102,7 +102,7 @@ const Contact = () => {
 						href='https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ceo@abonawas.com'
 						target='_blank'
 						rel='noopener noreferrer'>
-						{t('sendMessage')}
+						{t('formSubmit')}
 					</motion.a>
 
 					{/* Submitted Message */}

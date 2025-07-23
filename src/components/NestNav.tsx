@@ -85,7 +85,7 @@ const NestedNav: React.FC = () => {
 
 					{/* Hover Content */}
 					{isHovered && (
-						<div className=' absolute z-10 top-7 -end-96 transform bg-secoundry border-secoundry rounded-2xl overflow-hidden dark:border-darksecoundry border-2 text-darkprimary dark:bg-darkprimary shadow-lg shadow-darkforth dark:shadow-darkprimary hidden lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 xl:gap-6 pe-2 xl:pe-4 w-[67vw] max-w-6xl animate-slideIn'>
+						<div className=' absolute z-10 top-7 -end-60 transform bg-secoundry border-secoundry rounded-2xl overflow-hidden dark:border-darksecoundry border-2 text-darkprimary dark:bg-darkprimary shadow-lg shadow-darkforth dark:shadow-darkprimary hidden lg:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 xl:gap-6 pe-2 xl:pe-4 w-[67vw] max-w-6xl animate-slideIn'>
 							<div className='space-y-2 col-span-1 bg-primary dark:bg-darksecoundry '>
 								{contentData.map((item, idx) => (
 									<div
